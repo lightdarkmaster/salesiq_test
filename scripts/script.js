@@ -50,3 +50,27 @@ const getResponse = () => {
   script.defer = true;
   document.getElementById("zsiqscript").parentNode.appendChild(script);
 };
+
+const test =()=>{
+    const time = 19;
+    const year = 2025;
+    const result = year - time;
+    console.log(result);    
+}
+
+console.log(test());
+
+const test2 =()=>{
+    const num1 = 5;
+    const num2 = 10;
+
+    num1 > num2? console.log("num1 is greater"): console.log("num2 is greater");
+    //condition ? expression if true : expression if false
+
+
+    const result = num1 > num2? "num1 is greater" : "num2 is greater";
+    console.log(result);
+    
+}
+
+console.log(test2());
