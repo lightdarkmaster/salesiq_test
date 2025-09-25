@@ -76,6 +76,9 @@ const test2 =()=>{
 console.log(test2());
 
 
-const getData=()=>{
-  
+const getData=(num1, num2)=>{
+  const res = num1 + num2;
+  console.log(res);
 }
+console.clear();
+console.log(getData(5, 10));
