@@ -1,6 +1,6 @@
-const getData = (num1, num2) => {
-  const result = num1 + num2;
-  console.log(result);
+const addNumbers = (firstNumber, secondNumber) => {
+  const sum = firstNumber + secondNumber;
+  return sum;
 }
 
 const createElement = () => {
@@ -52,6 +52,18 @@ const getDataperCount =()=>{
 }
 
 const generate = () => {
+  const num1 = document.getElementById("num1").value;
+  const num2 = document.getElementById("num2").value;
+  getData(num1, num2);
+}
+
+const generateData = () => {
+  const num1 = document.getElementById("num1").value;
+  const num2 = document.getElementById("num2").value;
+  getData(num1, num2);
+}
+
+const getData = () => {
   const num1 = document.getElementById("num1").value;
   const num2 = document.getElementById("num2").value;
   getData(num1, num2);
