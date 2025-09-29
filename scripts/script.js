@@ -68,3 +68,11 @@ const getData = () => {
   const num2 = document.getElementById("num2").value;
   getData(num1, num2);
 }
+
+const get = () => {
+  const num1 = document.getElementById("num1").value;
+  const num2 = document.getElementById("num2").value;
+  getData(num1, num2);
+}
+
+console.log(get());
