@@ -12,3 +12,6 @@ const generateData = () => {
 
 // Call generateData when needed
 generateData();
+
+const button = document.getElementById("button");
+button.addEventListener("click", generateData);
