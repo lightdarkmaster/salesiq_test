@@ -15,3 +15,6 @@ generateData();
 
 const button = document.getElementById("button");
 button.addEventListener("click", generateData);
+
+const form = document.getElementById("form");
+form.addEventListener("submit", generateData);
