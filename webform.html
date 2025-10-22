@@ -12,12 +12,12 @@
 		onSubmit='javascript:document.charset="UTF-8"; return checkMandatory6715488000003325054()'
 		accept-charset='UTF-8'>
 		<input type='text' style='display:none;' name='xnQsjsdp'
-			value='1492b0380a5c22552a835830dd87979cc14097af202bc8cbb48c5a8d87c06e69'>
+			value='dea39e7573ddb5a861643a3cb2e6c8c798276913b0b553294585207261db2964'>
 		</input>
 		<input type='hidden' name='zc_gad' id='zc_gad' value=''>
 		</input>
 		<input type='text' style='display:none;' name='xmIwtLD'
-			value='d4570c24a3c9cdbe804370eaf899eb22bb6df7e528138df8af098488acd068beb4c5ce2afb55184f7287a82ace8e15e2'>
+			value='55bbecb2dc8f2d8ad2d0dd6542bb6cbc1594a310c9eb876e6ef914a09ee199e7be1f5a590b3eb8877d9f993c44482510'>
 		</input>
 		<input type='text' style='display:none;' name='actionType' value='TGVhZHM='>
 		</input>
@@ -403,23 +403,26 @@
 		</div>
 		<div class='zcwf_row'>
 			<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
-				<label for='Email'>Email</label>
+				<label for='Email'>Email
+					<span style='color:red;'>*</span>
+				</label>
 			</div>
 			<div class='zcwf_col_fld'>
-				<input type='text' ftype='email' autocomplete='false' id='Email' aria-required='false'
-					aria-label='Email' name='Email' aria-valuemax='100' crmlabel='' maxlength='100'>
+				<input type='text' ftype='email' autocomplete='false' id='Email' aria-required='true' aria-label='Email'
+					name='Email' aria-valuemax='100' crmlabel='' maxlength='100'>
 				</input>
 				<div class='zcwf_col_help'>
 				</div>
 			</div>
 		</div>
+
 		<div class="zcwf_row">
 			<div class="flexthis">
 				<div class="zcwf_col_lab" style="font-size:12px; font-family: Arial;">
 					<label for="Phone">Phone</label>
 				</div>
 				<div class="zcwf_col_fld">
-					<input type="tel" id="Phone" aria-required="false" aria-label="Phone" name="Phone"
+					<input type="tel" id="Phone" aria-required="true" aria-label="Phone" name="Phone"
 						pattern="^[+0-9][0-9\-]{6,14}$" maxlength="13" oninput="checkPhoneNumber(this)">
 				</div>
 				<div class="zcwf_col_help" style="margin-top: 5px;">
@@ -429,6 +432,9 @@
 				</div>
 			</div>
 		</div>
+
+
+
 		<script>
 			function checkPhoneNumber(input) {
 				const phoneNumber = input.value;
@@ -457,6 +463,7 @@
 				}
 			}
 		</script>
+
 		<div class='zcwf_row'>
 			<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
 				<label for='LEADCF24'>Preferred contact method&#x3f;</label>
@@ -682,8 +689,8 @@
 				return true;
 			}
 			function checkMandatory6715488000003325054() {
-				var mndFileds = new Array('First Name', 'Last Name', 'LEADCF9');
-				var fldLangVal = new Array('First\x20Name', 'Last\x20Name', 'Inquiry\x20Type');
+				var mndFileds = new Array('First Name', 'Last Name', 'Email', 'Phone', 'LEADCF9');
+				var fldLangVal = new Array('First\x20Name', 'Last\x20Name', 'Email', 'Phone', 'Inquiry\x20Type');
 				for (i = 0; i < mndFileds.length; i++) {
 					var fieldObj = document.forms['WebToLeads6715488000003325054'][mndFileds[i]];
 					if (fieldObj) {
@@ -754,7 +761,7 @@
 		</script>
 		<!-- Do not remove this --- Analytics Tracking code starts -->
 		<script id='wf_anal'
-			src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=57f53eaa4fb2d57534e06899ae27ace6a8524991058b100550e7d9184514b24461b2035de15e6b90fa3ce93dcfe05331gid96d3991aca4b530da9a212114313beb854065b354864be15f234e7a830dec784gid1fdea3c09f3f2f35d8cab63eeeecca083af0ece84b0c58a6c36bed95fd395fe8gid3c84997c17f61facf6c63f0a308434fb98d86f70156dbff42ed4890771ff9e3e&tw=68c2d2cdda053cee2c88ce62951187cb17ae18e1d7bf8c8f8c2c432f3499d18f'>
+			src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=c0355dd49b4334a6fbdcd975ec00848e7ae11f4114e948fc7e284ebd10863c0b78161adb0742fcc2b3afcc253fd92f24giddaf96c3e625601a5fb4a05af634fd12d4c805c09aafc65cf0f651ab3f62cbedfgid2dc12119ebb73fee3aa4585dd58bedb605241422db7c12dcf2deabcd45d72a13gid99b7ce141ba23c7f73f953ab45e78ec1efc53117e7299120ccf0b10c314cb07b&tw=99640ba01e2919cd88428779b5a4328fdc58e6395e4377b002bfa596c4b76ff9'>
 			</script>
 		<!-- Do not remove this --- Analytics Tracking code ends. -->
 	</form>
