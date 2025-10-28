@@ -423,7 +423,7 @@
 				</div>
 				<div class="zcwf_col_fld">
 					<input type="tel" id="Phone" aria-required="true" aria-label="Phone" name="Phone"
-						pattern="^[+0-9][0-9\-]{6,14}$" maxlength="13" oninput="checkPhoneNumber(this)">
+						pattern="^[+0-9][0-9\-]{6,14}$" maxlength="20" oninput="checkPhoneNumber(this)">
 				</div>
 				<div class="zcwf_col_help" style="margin-top: 5px;">
 					<span id="PhoneWarning" style="color:red;display:none">
@@ -437,31 +437,47 @@
 
 		<script>
 			function checkPhoneNumber(input) {
-				const phoneNumber = input.value;
+				const phoneNumber = input.value.trim();
 				const phoneWarning = document.getElementById('PhoneWarning');
 
-				// Set default max length
-				let maxLen = 13;
+				// Immediately block any letters
+				if (/[A-Za-z]/.test(phoneNumber)) {
+					phoneWarning.style.display = 'block';
+					input.maxLength = 20;
+					return;
+				}
 
-				// Adjust max length dynamically
+				// Default max length
+				let maxLen = 20;
+
+				// Max length rules based on format
 				if (phoneNumber.startsWith('+63')) {
-					maxLen = 13; // e.g. +639123456789
-				} else if (phoneNumber.startsWith('0')) {
-					maxLen = 11; // e.g. 09123456789 (mobile)
-				} else if (/^\d{4}-?/.test(phoneNumber)) {
-					maxLen = 9; // e.g. 8123-4567 (landline)
+					maxLen = 13; // +639123456789
+				} else if (phoneNumber.startsWith('09')) {
+					maxLen = 11; // 09123456789
+				} else if (/^\d{3,4}-\d{4}$/.test(phoneNumber)) {
+					maxLen = 9; // 8123-4567 or 123-4567
 				}
 
 				input.maxLength = maxLen;
 
-				// Pattern validation
-				const phonePattern = /^(\+?\d[\d\-]{6,14}\d)$/;
-				if (!phonePattern.test(phoneNumber)) {
-					phoneWarning.style.display = 'block';
-				} else {
+				// Validation patterns
+				const phonePatternMobilePH = /^(\+63\d{10}|09\d{9})$/;
+				const phonePatternLandlinePH = /^\d{3,4}-\d{4}$/;
+				const fallbackPattern = /^[0-9+\-]{7,20}$/;
+
+				if (
+					phonePatternMobilePH.test(phoneNumber) ||
+					phonePatternLandlinePH.test(phoneNumber) ||
+					fallbackPattern.test(phoneNumber)
+				) {
 					phoneWarning.style.display = 'none';
+				} else {
+					phoneWarning.style.display = 'block';
 				}
 			}
+
+
 		</script>
 
 		<div class='zcwf_row'>
