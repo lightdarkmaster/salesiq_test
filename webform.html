@@ -447,12 +447,6 @@
 					return;
 				}
 
-				// Minimum length of 5 without restrictions
-				if (phoneNumber.length >= 5 && /^\d+$/.test(phoneNumber)) {
-					phoneWarning.style.display = 'none';
-					return;
-				}
-
 				// Default max length
 				let maxLen = 20;
 
@@ -467,21 +461,16 @@
 
 				input.maxLength = maxLen;
 
-				// Validation patterns
-				const phonePatternMobilePH = /^(\+63\d{10}|09\d{9})$/;
-				const phonePatternLandlinePH = /^\d{3,4}-\d{4}$/;
-				const fallbackPattern = /^[0-9+\-]{7,20}$/;
+				// Validation pattern: allow digits, space, #, /, -, (, )
+				const allowedPattern = /^[0-9#/\-\(\)\s]{5,20}$/;
 
-				if (
-					phonePatternMobilePH.test(phoneNumber) ||
-					phonePatternLandlinePH.test(phoneNumber) ||
-					fallbackPattern.test(phoneNumber)
-				) {
+				if (allowedPattern.test(phoneNumber)) {
 					phoneWarning.style.display = 'none';
 				} else {
 					phoneWarning.style.display = 'block';
 				}
 			}
+
 
 
 		</script>
