@@ -423,7 +423,7 @@
 				</div>
 				<div class="zcwf_col_fld">
 					<input type="tel" id="Phone" aria-required="true" aria-label="Phone" name="Phone"
-						pattern="^[+0-9][0-9\-]{6,14}$" maxlength="20" oninput="checkPhoneNumber(this)">
+						pattern="^[+0-9]{5,20}$" minlength="5" maxlength="20" oninput="checkPhoneNumber(this)">
 				</div>
 				<div class="zcwf_col_help" style="margin-top: 5px;">
 					<span id="PhoneWarning" style="color:red;display:none">
@@ -444,6 +444,12 @@
 				if (/[A-Za-z]/.test(phoneNumber)) {
 					phoneWarning.style.display = 'block';
 					input.maxLength = 20;
+					return;
+				}
+
+				// Minimum length of 5 without restrictions
+				if (phoneNumber.length >= 5 && /^\d+$/.test(phoneNumber)) {
+					phoneWarning.style.display = 'none';
 					return;
 				}
 
