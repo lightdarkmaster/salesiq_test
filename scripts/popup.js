@@ -13,3 +13,5 @@ function getTotalNumberOfCards() {
 repeatChangeColor({
   times: 5
 });
+
+return getTotalNumberOfCards();
