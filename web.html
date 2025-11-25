@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="view-transition">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="icon" type="image/x-icon" href="/assets/images/page_template/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preload" href="https://service.force.com/embeddedservice/5.0/esw.min.js" as="script">
+        <meta name="robots" content="index,follow">
+        <title>Online Inquiry Form | DMCI Homes</title>
+        <meta name="description" content="DMCI Homes wants to hear from you. Visit us at DMCI Homes Corporate Center or fill up our Online Inquiry Form for more information.">
+        <link rel="canonical" href="https://www.dmcihomes.com/contact-us"/>
+        <meta name="og:title" content="Online Inquiry Form | DMCI Homes"/>
+        <meta name="og:description" content="DMCI Homes wants to hear from you. Visit us at DMCI Homes Corporate Center or fill up our Online Inquiry Form for more information."/>
+        <meta name="og:image" content="/assets/images/page_template/banner-placeholder.webp"/>
+        <meta name="twitter:title" content="Online Inquiry Form | DMCI Homes"/>
+        <meta name="twitter:description" content="DMCI Homes wants to hear from you. Visit us at DMCI Homes Corporate Center or fill up our Online Inquiry Form for more information."/>
+        <meta name="twitter:image" content="/assets/images/page_template/banner-placeholder.webp"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <link rel="preload" href="/assets/css/general.css" media="all" as="style"/>
+        <link rel="stylesheet" href="/assets/css/general.css"/>
+        <style>
+            .search-results {
+                padding-top: 120px;
+            }
+
+            .hp-why > figure img {
+                height: 130%;
+            }
+
+            .content--body + .view-more {
+                margin-top: 20px;
+            }
+
+            .card-item .asset .property-info .units li.disabled {
+                border-color: #414141;
+                background-color: #414141;
+                color: #fff;
+            }
+
+            .sec-header.with-filters .sec-header-menu > div {
+                align-items: center;
+            }
+
+            .site-search {
+                padding: 36px 0;
+            }
+
+            .fancybox-navigation .fancybox-button--arrow_left::before {
+                content: "\ea40";
+            }
+
+            .fancybox-navigation .fancybox-button--arrow_right::before {
+                content: "\ea3c";
+            }
+
+            select.js-search-filter option {
+                color: #000;
+            }
+
+            .card-side .asset.asset-search > a figure img {
+                max-height: 180px;
+            }
+
+            form.submitting {
+                position: relative;
+            }
+
+            form.submitting .lds-ellipsis, form.submitting .overlay {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            form.submitting button#contactSubmitBtn {
+                opacity: 0;
+            }
+
+            form .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: transparent;
+                z-index: 1;
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            .lds-ellipsis {
+                position: absolute;
+                display: block;
+                width: 80px;
+                height: 15px;
+                margin: auto;
+                opacity: 0;
+                visibility: hidden;
+                margin-top: -30px;
+            }
+
+            .lds-ellipsis div {
+                position: absolute;
+                width: 13px;
+                height: 13px;
+                border-radius: 50%;
+                background: #10388d;
+                -webkit-animation-timing-function: cubic-bezier(0,1,1,0);
+                animation-timing-function: cubic-bezier(0,1,1,0)
+            }
+
+            .lds-ellipsis div:first-child {
+                left: 8px;
+                -webkit-animation: lds-ellipsis1 0.6s infinite;
+                animation: lds-ellipsis1 0.6s infinite
+            }
+
+            .lds-ellipsis div:nth-child(2) {
+                left: 8px;
+                -webkit-animation: lds-ellipsis2 0.6s infinite;
+                animation: lds-ellipsis2 0.6s infinite
+            }
+
+            .lds-ellipsis div:nth-child(3) {
+                left: 32px;
+                -webkit-animation: lds-ellipsis2 0.6s infinite;
+                animation: lds-ellipsis2 0.6s infinite
+            }
+
+            .lds-ellipsis div:nth-child(4) {
+                left: 56px;
+                -webkit-animation: lds-ellipsis3 0.6s infinite;
+                animation: lds-ellipsis3 0.6s infinite
+            }
+
+            @-webkit-keyframes lds-ellipsis1 {
+                0% {
+                    -webkit-transform: scale(0);
+                    transform: scale(0)
+                }
+
+                to {
+                    -webkit-transform: scale(1);
+                    transform: scale(1)
+                }
+            }
+
+            @keyframes lds-ellipsis1 {
+                0% {
+                    -webkit-transform: scale(0);
+                    transform: scale(0)
+                }
+
+                to {
+                    -webkit-transform: scale(1);
+                    transform: scale(1)
+                }
+            }
+
+            @-webkit-keyframes lds-ellipsis3 {
+                0% {
+                    -webkit-transform: scale(1);
+                    transform: scale(1)
+                }
+
+                to {
+                    -webkit-transform: scale(0);
+                    transform: scale(0)
+                }
+            }
+
+            @keyframes lds-ellipsis3 {
+                0% {
+                    -webkit-transform: scale(1);
+                    transform: scale(1)
+                }
+
+                to {
+                    -webkit-transform: scale(0);
+                    transform: scale(0)
+                }
+            }
+
+            @-webkit-keyframes lds-ellipsis2 {
+                0% {
+                    -webkit-transform: translate(0,0);
+                    transform: translate(0,0)
+                }
+
+                to {
+                    -webkit-transform: translate(24px,0);
+                    transform: translate(24px,0)
+                }
+            }
+
+            @keyframes lds-ellipsis2 {
+                0% {
+                    -webkit-transform: translate(0,0);
+                    transform: translate(0,0)
+                }
+
+                to {
+                    -webkit-transform: translate(24px,0);
+                    transform: translate(24px,0)
+                }
+            }
+
+            .mb-0 {
+                margin-bottom: 0!important;
+            }
+
+            @media screen and (min-width: 1200px) {
+                .search-results {
+                    padding-top: 128px;
+                }
+            }
+
+            @media (max-width: 991px) {
+                .sec-header.with-page-nav .sec-header-menu {
+                    bottom: 67px;
+                }
+
+                .sec-header.with-page-nav .sec-header-menu ul li {
+                    padding: 0;
+                }
+
+                .sec-header.with-page-nav .sec-header-menu ul li a {
+                    display: block;
+                    padding: 20px 30px;
+                }
+            }
+
+            @media (max-width: 640px) {
+                .navbar-menu {
+                    padding-bottom: 140px;
+                    overflow: auto;
+                }
+            }
+        </style>
+        <style>
+            .js-carousel-awards .owl-nav button {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                color: #ffffff;
+                background-color: #53a700;
+            }
+
+            .js-carousel-awards .owl-nav button i::before {
+                font-size: 30px;
+                font-weight: 700;
+            }
+
+            .js-carousel-awards .owl-nav button:not(.disabled) {
+                opacity: 1;
+            }
+
+            .embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton {
+                bottom: 100px!important;
+            }
+
+            #contactUs form > .row > .col-sm-12:nth-child(1) {
+                margin-bottom: 0;
+            }
+
+            #contactUs .h3-text {
+                display: none;
+            }
+
+            #siteMap h3 {
+                margin-bottom: 24px;
+            }
+
+            #siteMap .url-list + h3 {
+                margin-top: 32px;
+            }
+
+            #siteMap .url-list {
+                list-style-type: disc;
+                padding-left: 24px;
+            }
+
+            #siteMap .url-list li {
+                margin-bottom: 4px;
+            }
+
+            @media screen and (min-width: 768px) {
+                .property-investment .cardlist-03 li:nth-child(2) {
+                    padding: 0 25px;
+                }
+
+                .property-investment .cardlist-03 li {
+                    padding: 0 5px;
+                }
+            }
+
+            .content--body table {
+                margin-bottom: 24px;
+            }
+
+            .content--body ol {
+                padding-bottom: 16px;
+            }
+
+            .content--body ol .img-caption, .content--body ul .img-caption {
+                margin-bottom: 0;
+            }
+
+            .content--body ol ul, .content--body ul ol {
+                padding-bottom: 0;
+            }
+        </style>
+        <meta name="google-site-verification" content="V6mLwZo2R9aA6yX08dU-OvVgoSenUuZhOU6z0NIP2r4"/>
+        <!-- Google Tag Manager -->
+        <script rel="dns-prefetch">
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0]
+                  , j = d.createElement(s)
+                  , dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            }
+            )(window, document, 'script', 'dataLayer', 'GTM-4DFQ');
+        </script>
+        <!-- End Google Tag Manager -->
+    </head>
+    <body id="main-container" class="">
+        <!-- PRELOADER -->
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- SEARCH FIELD -->
+        <div class="site-search">
+            <div class="container">
+                <form action="/search" method="GET">
+                    <div class="ss-field">
+                        <button class="ss-btn" aria-label="Search">
+                            <i class="icon-dmci icon-magnifyingGlass"></i>
+                        </button>
+                        <input id="siteSearchInput" class="ss-input" placeholder="Search" type="text" required minlength="2" name="s"/>
+                        <input type="text" name="ss-category" id="siteSearchCategory" hidden/>
+                    </div>
+                </form>
+                <div class="ss-cat-options">
+                    <div class="search-cat">
+                        <button id="siteSearCategoryBtn" aria-label="Search by">
+                            <span>All Categories</span>
+                            <i class="icon-dmci icon-chevron-down"></i>
+                        </button>
+                        <ul>
+                            <li>
+                                <button value="All" class="search-by" aria-label="Search by Category">All Categories</button>
+                            </li>
+                            <li>
+                                <button value="Projects" class="search-by" aria-label="Search by Pages">Projects</button>
+                            </li>
+                            <li>
+                                <button value="News" class="search-by" aria-label="Search by Pages">News</button>
+                            </li>
+                            <li>
+                                <button value="Events" class="search-by" aria-label="Search by Pages">Events</button>
+                            </li>
+                            <li>
+                                <button value="Promos" class="search-by" aria-label="Search by Pages">Promos</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="js-ss-close ss-close" aria-label="Cloase Search">
+                        <i class="icon-dmci icon-close"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <nav class="fixedlinks">
+            <ul>
+                <li>
+                    <a href="https://www.dmcihomes.com/">
+                        <i class="icon-dmci icon-house"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="js-more-option">
+                        <i class="icon-dmci icon-magnifyingGlass"></i>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu js-mobile-menu">
+                        <i class="icon-dmci icon-menu"></i>
+                        <span>Menu</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.dmcihomes.com/whats-new">
+                        <i class="icon-dmci icon-news"></i>
+                        <span>News</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.dmcihomes.com/contact-us">
+                        <i class="icon-dmci icon-phone"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <header class="">
+            <!-- HEADER CTA -->
+            <div class="header-cta">
+                <div class="container">
+                    <ul>
+                        <li></li>
+                        <li>
+                            <a href="https://www.dmcihomes.com/contact-us">
+                                <span>
+                                    Customer Care <i class="icon-dmci icon-heart"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://leasing.dmcihomes.com">
+                                <span>
+                                    Leasing Services <i class="icon-dmci icon-house"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://communities.dmcihomes.com">
+                                <span>
+                                    DMCI Communities <img loading="lazy" src="/assets/images/page_template/community-icon-522c752cef3b1423d07f3d87d738ddd1.webp" alt="DMCI Communities" width="35" height="15">
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- NAVBAR  -->
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-logo">
+                        <a href="https://www.dmcihomes.com/" aria-label="DMCI Homes Logo">
+                            <img loading="lazy" src="/assets/images/page_template/dmci-logo-45f79bdaa8b94d12e9905650f43e1db8.webp" class="white" alt="">
+                            <img loading="lazy" src="/assets/images/page_template/dmci-logo-blue-08f090803967323f2de896c58ed00c35.png" class="blue" alt="">
+                            <img loading="lazy" src="/assets/images/page_template/dmci-exclusive-logo-white.webp" class="exclusive-white" alt="" width="190">
+                            <img loading="lazy" src="/assets/images/page_template/dmci-exclusive-logo-dark.webp" class="exclusive-dark" alt="" width="190">
+                            <img loading="lazy" src="/assets/images/page_template/dmci-leisure-logo-white.webp" class="leisure-white" alt="" width="190">
+                            <img loading="lazy" src="/assets/images/page_template/dmci-leisure-logo-dark.webp" class="leisure-dark" alt="" width="190">
+                        </a>
+                    </div>
+                    <div class="navbar-menu">
+                        <ul>
+                            <li>
+                                <a href="https://www.dmcihomes.com/whats-new">Whats New</a>
+                            </li>
+                            <li>
+                                <a href="https://www.dmcihomes.com/properties">Properties</a>
+                            </li>
+                            <li>
+                                <a href="https://www.dmcihomes.com/guides">Guides</a>
+                            </li>
+                            <li>
+                                <a href="https://www.dmcihomes.com/sellers">Sellers</a>
+                            </li>
+                            <li>
+                                <a href="https://www.dmcihomes.com/careers">Careers</a>
+                            </li>
+                            <li>
+                                <a href="https://www.dmcihomes.com/about-us">About Us</a>
+                            </li>
+                            <li>
+                                <a href="https://www.dmcihomes.com/contact-us">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="navbar-menu-mob">
+                            <!-- MOBILE SEARCH MENU -->
+                            <button class="button--primary success js-site-search nm-search-cta">
+                                <i class="icon-dmci icon-magnifyingGlass left-icon"></i>
+                                Search
+                            </button>
+                            <!-- MOBILE CTA -->
+                            <ul class="nm-header-cta">
+                                <li style="display:none;">
+                                    <a href="#">
+                                        <span class="settings">
+                                            <span class="js-show-currency">PHP</span>
+                                            <span class="js-show-measure">Metric</span>
+                                            <i class="icon-dmci icon-settings"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.dmcihomes.com/contact-us">
+                                        <span>
+                                            Customer Care <i class="icon-dmci icon-heart"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://leasing.dmcihomes.com">
+                                        <span>
+                                            Leasing Services <i class="icon-dmci icon-house"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://communities.dmcihomes.com">
+                                        <span>
+                                            DMCI Communities <img loading="lazy" src="/assets/images/page_template/community-icon-522c752cef3b1423d07f3d87d738ddd1.webp" alt="DMCI Communities" width="35" height="15">
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navbar-cta">
+                        <button class="button--primary success js-site-search" aria-label="Search">
+                            <i class="icon-dmci icon-magnifyingGlass left-icon"></i>
+                            Search
+                        </button>
+                    </div>
+                    <div class="navbar-hamburger">
+                        <div class="hamburger">
+                            <div class="hamburger-menu js-hamburger-action">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main role="main" id="main">
+            <!-- CONTACT US -->
+            <section class="contact p-t-50 p-b-30" id="contactUs">
+                <div class="container">
+                    <div class="sec-header">
+                        <h1 class="h2-text c--blue">Contact Us</h1>
+                    </div>
+                    <form action="/contact-us/send" id="contactForm" method="POST">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <!-- INQUIRY TYPE-->
+                                <div class="input-wrap">
+                                    <label for="inquiryType">
+                                        What can we help you with? <span class="required-field">*</span>
+                                    </label>
+                                    <div class="custom-select empty bdr-gray">
+                                        <label for="inquiryType"></label>
+                                        <select id="inquiryType" name="inquiryType">
+                                            <option value="Sales Inquiry" selected="">Sales Inquiry</option>
+                                            <option value="Customer Care Concern">Customer Care Concern</option>
+                                            <option value="Leasing Inquiry">Leasing Inquiry</option>
+                                            <option value="Other Concerns">Other Concerns</option>
+                                        </select>
+                                    </div>
+                                    <p class="error-message">This field is requried</p>
+                                </div>
+                                <!-- PROPERTY NAME -->
+                                <div class="input-wrap">
+                                    <label for="propertyName">
+                                        What Property? <span class="required-field">*</span>
+                                    </label>
+                                    <div class="custom-select empty bdr-gray">
+                                        <label for="propertyName"></label>
+                                        <select id="propertyName" name="propertyName">
+                                            <option value="" selected="selected" disabled="disabled">Select Property</option>
+                                            <option value="Accolade Place">Accolade Place</option>
+                                            <option value="Alder Residences">Alder Residences</option>
+                                            <option value="Alea Residences">Alea Residences</option>
+                                            <option value="Allegra Garden Place">Allegra Garden Place</option>
+                                            <option value="Alta Vista de Boracay">Alta Vista de Boracay</option>
+                                            <option value="Anissa Heights">Anissa Heights</option>
+                                            <option value="Arista Place">Arista Place</option>
+                                            <option value="Astalla Residences">Astalla Residences</option>
+                                            <option value="Asteria Residences">Asteria Residences</option>
+                                            <option value="Belleza Towers">Belleza Towers</option>
+                                            <option value="Bonifacio Heights Condominiums">Bonifacio Heights Condominiums</option>
+                                            <option value="Brio Tower">Brio Tower</option>
+                                            <option value="Bristle Ridge">Bristle Ridge</option>
+                                            <option value="Brixton Place">Brixton Place</option>
+                                            <option value="Calathea Place">Calathea Place</option>
+                                            <option value="Cameron Residences">Cameron Residences</option>
+                                            <option value="Cardea Terraces">Cardea Terraces</option>
+                                            <option value="Cedar Crest">Cedar Crest</option>
+                                            <option value="Centro Roces Residences">Centro Roces Residences</option>
+                                            <option value="Cypress Towers">Cypress Towers</option>
+                                            <option value="Dansalan Gardens Condominiums">Dansalan Gardens Condominiums</option>
+                                            <option value="East Ortigas Mansions">East Ortigas Mansions</option>
+                                            <option value="East Raya Gardens">East Raya Gardens</option>
+                                            <option value="Fairlane Residences">Fairlane Residences</option>
+                                            <option value="Fairway Terraces">Fairway Terraces</option>
+                                            <option value="Flair Towers">Flair Towers</option>
+                                            <option value="Fortis Residences">Fortis Residences</option>
+                                            <option value="Illumina Residences Manila">Illumina Residences Manila</option>
+                                            <option value="Infina Towers">Infina Towers</option>
+                                            <option value="Ivory Wood">Ivory Wood</option>
+                                            <option value="Kai Garden Residences">Kai Garden Residences</option>
+                                            <option value="Kalea Heights">Kalea Heights</option>
+                                            <option value="La Verti Residences">La Verti Residences</option>
+                                            <option value="Lakeview Manors">Lakeview Manors</option>
+                                            <option value="Levina Place">Levina Place</option>
+                                            <option value="Lisseo Residences ">Lisseo Residences </option>
+                                            <option value="Lucine Estates">Lucine Estates</option>
+                                            <option value="Lumiere Residences">Lumiere Residences</option>
+                                            <option value="Lyre Garden Residences">Lyre Garden Residences</option>
+                                            <option value="Magnolia Place">Magnolia Place</option>
+                                            <option value="Mahogany Place III">Mahogany Place III</option>
+                                            <option value="Maple Place">Maple Place</option>
+                                            <option value="Maricielo Villas">Maricielo Villas</option>
+                                            <option value="Mayfield Park Residences">Mayfield Park Residences</option>
+                                            <option value="Mirea Residences">Mirea Residences</option>
+                                            <option value="Moncello Crest">Moncello Crest</option>
+                                            <option value="Mulberry Place">Mulberry Place</option>
+                                            <option value="Oak Harbor Residences">Oak Harbor Residences</option>
+                                            <option value="Ohana Place">Ohana Place</option>
+                                            <option value="Olea Estates">Olea Estates</option>
+                                            <option value="One Castilla Place">One Castilla Place</option>
+                                            <option value="One Delta Terraces">One Delta Terraces</option>
+                                            <option value="Outlook Ridge Residences">Outlook Ridge Residences</option>
+                                            <option value="Palm Grove">Palm Grove</option>
+                                            <option value="Parama Residences">Parama Residences</option>
+                                            <option value="Prisma Residences">Prisma Residences</option>
+                                            <option value="Rainbow Ridge Condominiums">Rainbow Ridge Condominiums</option>
+                                            <option value="Raya Garden Condominiums">Raya Garden Condominiums</option>
+                                            <option value="Rhapsody Residences">Rhapsody Residences</option>
+                                            <option value="Riverfront Residences">Riverfront Residences</option>
+                                            <option value="Rosewood Pointe">Rosewood Pointe</option>
+                                            <option value="Royal Palm Residences">Royal Palm Residences</option>
+                                            <option value="Sage Residences">Sage Residences</option>
+                                            <option value="Satori Residences">Satori Residences</option>
+                                            <option value="Sheridan Towers">Sheridan Towers</option>
+                                            <option value="Siena Park Residences">Siena Park Residences</option>
+                                            <option value="Sinclair Residences">Sinclair Residences</option>
+                                            <option value="Solmera Coast">Solmera Coast</option>
+                                            <option value="Sonora Garden Residences">Sonora Garden Residences</option>
+                                            <option value="Sorrel Residences">Sorrel Residences</option>
+                                            <option value="Sovanna Towers">Sovanna Towers</option>
+                                            <option value="Spring Lane Homes">Spring Lane Homes</option>
+                                            <option value="Stellar Place">Stellar Place</option>
+                                            <option value="The Amaryllis">The Amaryllis</option>
+                                            <option value="The Aston Place">The Aston Place</option>
+                                            <option value="The Atherton">The Atherton</option>
+                                            <option value="The Avalon Heights">The Avalon Heights</option>
+                                            <option value="The Birchwood">The Birchwood</option>
+                                            <option value="The Calinea Tower">The Calinea Tower</option>
+                                            <option value="The Camden Place">The Camden Place</option>
+                                            <option value="The Celandine">The Celandine</option>
+                                            <option value="The Crestmont">The Crestmont</option>
+                                            <option value="The Erin Heights">The Erin Heights</option>
+                                            <option value="The Manors at Celebrity Place">The Manors at Celebrity Place</option>
+                                            <option value="The Orabella">The Orabella</option>
+                                            <option value="The Oriana">The Oriana</option>
+                                            <option value="The Redwoods">The Redwoods</option>
+                                            <option value="The Valeron Tower">The Valeron Tower</option>
+                                            <option value="Tivoli Garden Residences">Tivoli Garden Residences</option>
+                                            <option value="Torre De Manila">Torre De Manila</option>
+                                            <option value="Verawood Residences">Verawood Residences</option>
+                                            <option value="Verdon Parc">Verdon Parc</option>
+                                            <option value="Viera Residences">Viera Residences</option>
+                                            <option value="Villa Alegre Homes">Villa Alegre Homes</option>
+                                            <option value="Vista De Lago">Vista De Lago</option>
+                                            <option value="Willow Park Homes">Willow Park Homes</option>
+                                            <option value="Woodland Hills">Woodland Hills</option>
+                                            <option value="Zinnia Towers">Zinnia Towers</option>
+                                        </select>
+                                    </div>
+                                    <p class="error-message">This field is requried</p>
+                                </div>
+                                <!-- NAME -->
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="input-wrap">
+                                            <label for="firstName">
+                                                First Name <span class="required-field">*</span>
+                                            </label>
+                                            <input type="text" name="firstName" id="firstName" class="bdr-gray" oninput="this.value=this.value.replace(/[^A-Za-z ]/g,'').replace(/\s+/g,' ').replace(/^\s/,'')">
+                                            <p class="error-message">This field is requried</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="input-wrap">
+                                            <label for="lastName">
+                                                Last Name <span class="required-field">*</span>
+                                            </label>
+                                            <input type="text" name="lastName" id="lastName" class="bdr-gray" oninput="this.value=this.value.replace(/[^A-Za-z ]/g,'').replace(/\s+/g,' ').replace(/^\s/,'')">
+                                            <p class="error-message">This field is requried</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CONTACT INFO -->
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="input-wrap">
+                                            <label for="email">
+                                                Email <span class="required-field">*</span>
+                                            </label>
+                                            <input type="email" name="email" id="email" class="bdr-gray">
+                                            <p class="error-message">This field is requried</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="input-wrap">
+                                            <label for="contactNumber">
+                                                Contact Number <span class="required-field">*</span>
+                                            </label>
+                                            <input type="text" name="contactNumber" id="contactNumber" class="bdr-gray" oninput="this.value = this.value.replace(/[^0-9+\-() ]/g, '');">
+                                            <p class="error-message">This field is requried</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <!-- WAY OF CONTACT -->
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="input-wrap">
+                                            <label for="contactMethod">
+                                                Preferred contact method? <span class="required-field">*</span>
+                                            </label>
+                                            <div class="custom-select empty bdr-gray">
+                                                <label for="contactMethod"></label>
+                                                <select id="contactMethod" name="contactMethod">
+                                                    <option value="Email and Mobile" selected>Email and Mobile</option>
+                                                    <option value="Email">Email</option>
+                                                    <option value="Mobile">Call</option>
+                                                </select>
+                                            </div>
+                                            <p class="error-message">This field is requried</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="input-wrap">
+                                            <label for="contactTime">
+                                                Best time to contact you <span class="required-field">*</span>
+                                            </label>
+                                            <div class="custom-select empty bdr-gray">
+                                                <label for="contactTime"></label>
+                                                <select id="contactTime" name="contactTime">
+                                                    <option value="Anytime" selected>Anytime</option>
+                                                    <option value="Morning">Morning</option>
+                                                    <option value="Afternoon">Afternoon</option>
+                                                    <option value="Evening">Evening</option>
+                                                </select>
+                                            </div>
+                                            <p class="error-message">This field is requried</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- OTHER PERSONAL INFORMATION -->
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="input-wrap">
+                                            <label for="nationality">
+                                                Nationality <span class="required-field">*</span>
+                                            </label>
+                                            <div class="custom-select empty bdr-gray">
+                                                <label for="nationality"></label>
+                                                <select id="nationality" name="nationality"></select>
+                                            </div>
+                                            <p class="error-message">This field is requried</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="input-wrap">
+                                            <label for="city">
+                                                Town/City <span class="required-field">*</span>
+                                            </label>
+                                            <input type="text" name="city" id="city" placeholder="Town/City" class="bdr-gray" oninput="this.value=this.value.replace(/[^A-Za-z ]/g,'').replace(/\s+/g,' ').replace(/^\s/,'')">
+                                            <p class="error-message">This field is requried</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- MESSAGE / INFO -->
+                                <div class="input-wrap">
+                                    <label for="message">Tell us about it</label>
+                                    <textarea name="message" id="message" class="bdr-gray" cols="30" rows="5" placeholder="Message" oninput="this.value=this.value.replace(/[^\p{L}\p{N} .,]/gu,'').replace(/\s+/g,' ').replace(/^\s/,'')"></textarea>
+                                    <p class="error-message">This field is requried</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <!-- PRIVACY POLICY -->
+                                <div class="input-wrap">
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="privacyPolicy" id="privacyPolicy">
+                                        <label for="privacyPolicy">
+                                            <span>
+                                                <span class="required-field">*</span>
+                                                I agree to the DMCI Homes <a href="/privacy-policy">Privacy Policy</a>
+                                                as guided by RA10173 or the Philippine Data Privacy Act of 2012. guided by RA10173 or the Philippine Data Privacy Act of 2012. guided by RA10173 or the Philippine Data Privacy Act of 2012.
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <p class="error-message">This field is requried</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <!-- AGREEMENT -->
+                                <div class="input-wrap">
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="officialSalesRepresentative" id="officialSalesRepresentative">
+                                        <label for="officialSalesRepresentative">
+                                            <span>I am allowing DMCI Homes’ Corporate Accounts Management group to be my  official sales representative for the next 30 days. The group will exclusively be  responsible for any of my inquiries and processes needed, should I decide to make a reservation/purchase.</span>
+                                        </label>
+                                    </div>
+                                    <p class="error-message">This field is requried</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xs-12">
+                                <div class="g-captcha-button">
+                                    <div id="gcaptcha" class="g-recaptcha" data-callback="recaptchaCallback"></div>
+                                    <div class="button-loader">
+                                        <button class="button--primary light-blue disabled" id="contactSubmitBtn" disabled>Submit your Inquiry</button>
+                                        <div class="lds-ellipsis">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- WHISTLEBLOWER -->
+                    <div class="card-item card-icon whistleblower">
+                        <div class="icon">
+                            <i class="icon-dmci icon-whistle"></i>
+                        </div>
+                        <div class="info">
+                            <p class="h4-text">Whistleblower</p>
+                            <div class="excerpt">
+                                <p>Have you encountered any malpractice or misconduct by our company officers/employees?
+                            </p>
+                                <a href="https://www.dmcihomes.com/whistleblower" class="view-more">
+                                    <span>Let us know</span>
+                                    <i class="icon-dmci icon-right-arrow-bold"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- DMCI OFFICES -->
+            <section class="find-offices">
+                <div class="container">
+                    <div class="sec-header">
+                        <h2 class="c--blue">DMCI Homes Office</h2>
+                    </div>
+                    <form id="branch-filter-form">
+                        <div class="row">
+                            <div class="col-md-3 col-xs-12">
+                                <!-- OFFICE REGION -->
+                                <div class="input-wrap">
+                                    <label for="officeRegion">Province </label>
+                                    <div class="custom-select empty bdr-gray">
+                                        <label for="officeRegion"></label>
+                                        <select id="officeRegion" name="officeRegion">
+                                            <option value="" disabled>Select your Province</option>
+                                            <option value="1" data-cities='{&quot;1&quot;:&quot;Bangued&quot;,&quot;2&quot;:&quot;Boliney&quot;,&quot;3&quot;:&quot;Bucay&quot;,&quot;4&quot;:&quot;Bucloc&quot;,&quot;5&quot;:&quot;Daguioman&quot;,&quot;6&quot;:&quot;Danglas&quot;,&quot;7&quot;:&quot;Dolores&quot;,&quot;8&quot;:&quot;La Paz&quot;,&quot;9&quot;:&quot;Lacub&quot;,&quot;10&quot;:&quot;Lagangilang&quot;,&quot;11&quot;:&quot;Lagayan&quot;,&quot;12&quot;:&quot;Langiden&quot;,&quot;13&quot;:&quot;Licuan-Baay&quot;,&quot;14&quot;:&quot;Luba&quot;,&quot;15&quot;:&quot;Malibcong&quot;,&quot;16&quot;:&quot;Manabo&quot;,&quot;17&quot;:&quot;Pe\u00f1arrubia&quot;,&quot;18&quot;:&quot;Pidigan&quot;,&quot;19&quot;:&quot;Pilar&quot;,&quot;20&quot;:&quot;Sallapadan&quot;,&quot;21&quot;:&quot;San Isidro&quot;,&quot;22&quot;:&quot;San Juan&quot;,&quot;23&quot;:&quot;San Quintin&quot;,&quot;24&quot;:&quot;Tayum&quot;,&quot;25&quot;:&quot;Tineg&quot;,&quot;26&quot;:&quot;Tubo&quot;,&quot;27&quot;:&quot;Villaviciosa&quot;}'>Abra</option>
+                                            <option value="2" data-cities='{&quot;28&quot;:&quot;Butuan City&quot;,&quot;29&quot;:&quot;Buenavista&quot;,&quot;30&quot;:&quot;Cabadbaran&quot;,&quot;31&quot;:&quot;Carmen&quot;,&quot;32&quot;:&quot;Jabonga&quot;,&quot;33&quot;:&quot;Kitcharao&quot;,&quot;34&quot;:&quot;Las Nieves&quot;,&quot;35&quot;:&quot;Magallanes&quot;,&quot;36&quot;:&quot;Nasipit&quot;,&quot;37&quot;:&quot;Remedios T. Romualdez&quot;,&quot;38&quot;:&quot;Santiago&quot;,&quot;39&quot;:&quot;Tubay&quot;}'>Agusan del Norte</option>
+                                            <option value="3" data-cities='{&quot;40&quot;:&quot;Bayugan&quot;,&quot;41&quot;:&quot;Bunawan&quot;,&quot;42&quot;:&quot;Esperanza&quot;,&quot;43&quot;:&quot;La Paz&quot;,&quot;44&quot;:&quot;Loreto&quot;,&quot;45&quot;:&quot;Prosperidad&quot;,&quot;46&quot;:&quot;Rosario&quot;,&quot;47&quot;:&quot;San Francisco&quot;,&quot;48&quot;:&quot;San Luis&quot;,&quot;49&quot;:&quot;Santa Josefa&quot;,&quot;50&quot;:&quot;Sibagat&quot;,&quot;51&quot;:&quot;Talacogon&quot;,&quot;52&quot;:&quot;Trento&quot;,&quot;53&quot;:&quot;Veruela&quot;}'>Agusan del Sur</option>
+                                            <option value="4" data-cities='{&quot;54&quot;:&quot;Altavas&quot;,&quot;55&quot;:&quot;Balete&quot;,&quot;56&quot;:&quot;Banga&quot;,&quot;57&quot;:&quot;Batan&quot;,&quot;58&quot;:&quot;Buruanga&quot;,&quot;59&quot;:&quot;Ibajay&quot;,&quot;60&quot;:&quot;Kalibo&quot;,&quot;61&quot;:&quot;Lezo&quot;,&quot;62&quot;:&quot;Libacao&quot;,&quot;63&quot;:&quot;Madalag&quot;,&quot;64&quot;:&quot;Makato&quot;,&quot;65&quot;:&quot;Malay&quot;,&quot;66&quot;:&quot;Malinao&quot;,&quot;67&quot;:&quot;Nabas&quot;,&quot;68&quot;:&quot;New Washington&quot;,&quot;69&quot;:&quot;Numancia&quot;,&quot;70&quot;:&quot;Tangalan&quot;}'>Aklan</option>
+                                            <option value="5" data-cities='{&quot;71&quot;:&quot;Legazpi City&quot;,&quot;72&quot;:&quot;Ligao City&quot;,&quot;73&quot;:&quot;Tabaco City&quot;,&quot;74&quot;:&quot;Bacacay&quot;,&quot;75&quot;:&quot;Camalig&quot;,&quot;76&quot;:&quot;Daraga&quot;,&quot;77&quot;:&quot;Guinobatan&quot;,&quot;78&quot;:&quot;Jovellar&quot;,&quot;79&quot;:&quot;Libon&quot;,&quot;80&quot;:&quot;Malilipot&quot;,&quot;81&quot;:&quot;Malinao&quot;,&quot;82&quot;:&quot;Manito&quot;,&quot;83&quot;:&quot;Oas&quot;,&quot;84&quot;:&quot;Pio Duran&quot;,&quot;85&quot;:&quot;Polangui&quot;,&quot;86&quot;:&quot;Rapu-Rapu&quot;,&quot;87&quot;:&quot;Santo Domingo&quot;,&quot;88&quot;:&quot;Tiwi&quot;}'>Albay</option>
+                                            <option value="6" data-cities='{&quot;89&quot;:&quot;Anini-y&quot;,&quot;90&quot;:&quot;Barbaza&quot;,&quot;91&quot;:&quot;Belison&quot;,&quot;92&quot;:&quot;Bugasong&quot;,&quot;93&quot;:&quot;Caluya&quot;,&quot;94&quot;:&quot;Culasi&quot;,&quot;95&quot;:&quot;Hamtic&quot;,&quot;96&quot;:&quot;Laua-an&quot;,&quot;97&quot;:&quot;Libertad&quot;,&quot;98&quot;:&quot;Pandan&quot;,&quot;99&quot;:&quot;Patnongon&quot;,&quot;100&quot;:&quot;San Jose&quot;,&quot;101&quot;:&quot;San Remigio&quot;,&quot;102&quot;:&quot;Sebaste&quot;,&quot;103&quot;:&quot;Sibalom&quot;,&quot;104&quot;:&quot;Tibiao&quot;,&quot;105&quot;:&quot;Tobias Fornier&quot;,&quot;106&quot;:&quot;Valderrama&quot;}'>Antique</option>
+                                            <option value="7" data-cities='{&quot;107&quot;:&quot;Calanasan&quot;,&quot;108&quot;:&quot;Conner&quot;,&quot;109&quot;:&quot;Flora&quot;,&quot;110&quot;:&quot;Kabugao&quot;,&quot;111&quot;:&quot;Luna&quot;,&quot;112&quot;:&quot;Pudtol&quot;,&quot;113&quot;:&quot;Santa Marcela&quot;}'>Apayao</option>
+                                            <option value="8" data-cities='{&quot;114&quot;:&quot;Baler&quot;,&quot;115&quot;:&quot;Casiguran&quot;,&quot;116&quot;:&quot;Dilasag&quot;,&quot;117&quot;:&quot;Dinalungan&quot;,&quot;118&quot;:&quot;Dingalan&quot;,&quot;119&quot;:&quot;Dipaculao&quot;,&quot;120&quot;:&quot;Maria Aurora&quot;,&quot;121&quot;:&quot;San Luis&quot;}'>Aurora</option>
+                                            <option value="9" data-cities='{&quot;122&quot;:&quot;Isabela City&quot;,&quot;123&quot;:&quot;Akbar&quot;,&quot;124&quot;:&quot;Al-Barka&quot;,&quot;125&quot;:&quot;Hadji Mohammad Ajul&quot;,&quot;126&quot;:&quot;Hadji Muhtamad&quot;,&quot;127&quot;:&quot;Lamitan&quot;,&quot;128&quot;:&quot;Lantawan&quot;,&quot;129&quot;:&quot;Maluso&quot;,&quot;130&quot;:&quot;Sumisip&quot;,&quot;131&quot;:&quot;Tabuan-Lasa&quot;,&quot;132&quot;:&quot;Tipo-Tipo&quot;,&quot;133&quot;:&quot;Tuburan&quot;,&quot;134&quot;:&quot;Ungkaya Pukan&quot;}'>Basilan</option>
+                                            <option value="10" data-cities='{&quot;135&quot;:&quot;Balanga City&quot;,&quot;136&quot;:&quot;Abucay&quot;,&quot;137&quot;:&quot;Bagac&quot;,&quot;138&quot;:&quot;Dinalupihan&quot;,&quot;139&quot;:&quot;Hermosa&quot;,&quot;140&quot;:&quot;Limay&quot;,&quot;141&quot;:&quot;Mariveles&quot;,&quot;142&quot;:&quot;Morong&quot;,&quot;143&quot;:&quot;Orani&quot;,&quot;144&quot;:&quot;Orion&quot;,&quot;145&quot;:&quot;Pilar&quot;,&quot;146&quot;:&quot;Samal&quot;}'>Bataan</option>
+                                            <option value="11" data-cities='{&quot;147&quot;:&quot;Basco&quot;,&quot;148&quot;:&quot;Itbayat&quot;,&quot;149&quot;:&quot;Ivana&quot;,&quot;150&quot;:&quot;Mahatao&quot;,&quot;151&quot;:&quot;Sabtang&quot;,&quot;152&quot;:&quot;Uyugan&quot;}'>Batanes</option>
+                                            <option value="12" data-cities='{&quot;153&quot;:&quot;Batangas City&quot;,&quot;154&quot;:&quot;Lipa City&quot;,&quot;155&quot;:&quot;Tanauan City&quot;,&quot;156&quot;:&quot;Agoncillo&quot;,&quot;157&quot;:&quot;Alitagtag&quot;,&quot;158&quot;:&quot;Balayan&quot;,&quot;159&quot;:&quot;Balete&quot;,&quot;160&quot;:&quot;Bauan&quot;,&quot;161&quot;:&quot;Calaca&quot;,&quot;162&quot;:&quot;Calatagan&quot;,&quot;163&quot;:&quot;Cuenca&quot;,&quot;164&quot;:&quot;Ibaan&quot;,&quot;165&quot;:&quot;Laurel&quot;,&quot;166&quot;:&quot;Lemery&quot;,&quot;167&quot;:&quot;Lian&quot;,&quot;168&quot;:&quot;Lobo&quot;,&quot;169&quot;:&quot;Mabini&quot;,&quot;170&quot;:&quot;Malvar&quot;,&quot;171&quot;:&quot;Mataas na Kahoy&quot;,&quot;172&quot;:&quot;Nasugbu&quot;,&quot;173&quot;:&quot;Padre Garcia&quot;,&quot;174&quot;:&quot;Rosario&quot;,&quot;175&quot;:&quot;San Jose&quot;,&quot;176&quot;:&quot;San Juan, Batangas&quot;,&quot;177&quot;:&quot;San Luis&quot;,&quot;178&quot;:&quot;San Nicolas&quot;,&quot;179&quot;:&quot;San Pascual&quot;,&quot;180&quot;:&quot;Santa Teresita&quot;,&quot;181&quot;:&quot;Santo Tomas&quot;,&quot;182&quot;:&quot;Taal&quot;,&quot;183&quot;:&quot;Talisay&quot;,&quot;184&quot;:&quot;Taysan&quot;,&quot;185&quot;:&quot;Tingloy&quot;,&quot;186&quot;:&quot;Tuy&quot;}'>Batangas</option>
+                                            <option value="13" data-cities='{&quot;187&quot;:&quot;Baguio City&quot;,&quot;188&quot;:&quot;Atok&quot;,&quot;189&quot;:&quot;Bakun&quot;,&quot;190&quot;:&quot;Bokod&quot;,&quot;191&quot;:&quot;Buguias&quot;,&quot;192&quot;:&quot;Itogon&quot;,&quot;193&quot;:&quot;Kabayan&quot;,&quot;194&quot;:&quot;Kapangan&quot;,&quot;195&quot;:&quot;Kibungan&quot;,&quot;196&quot;:&quot;La Trinidad&quot;,&quot;197&quot;:&quot;Mankayan&quot;,&quot;198&quot;:&quot;Sablan&quot;,&quot;199&quot;:&quot;Tuba, Benguet&quot;,&quot;200&quot;:&quot;Tublay&quot;}'>Benguet</option>
+                                            <option value="14" data-cities='{&quot;201&quot;:&quot;Almeria&quot;,&quot;202&quot;:&quot;Biliran&quot;,&quot;203&quot;:&quot;Cabucgayan&quot;,&quot;204&quot;:&quot;Caibiran&quot;,&quot;205&quot;:&quot;Culaba&quot;,&quot;206&quot;:&quot;Kawayan&quot;,&quot;207&quot;:&quot;Maripipi&quot;,&quot;208&quot;:&quot;Naval&quot;}'>Biliran</option>
+                                            <option value="15" data-cities='{&quot;209&quot;:&quot;Tagbilaran City&quot;,&quot;210&quot;:&quot;Alburquerque&quot;,&quot;211&quot;:&quot;Alicia&quot;,&quot;212&quot;:&quot;Anda&quot;,&quot;213&quot;:&quot;Antequera&quot;,&quot;214&quot;:&quot;Baclayon&quot;,&quot;215&quot;:&quot;Balilihan&quot;,&quot;216&quot;:&quot;Batuan&quot;,&quot;217&quot;:&quot;Bien Unido&quot;,&quot;218&quot;:&quot;Bilar&quot;,&quot;219&quot;:&quot;Buenavista&quot;,&quot;220&quot;:&quot;Calape&quot;,&quot;221&quot;:&quot;Candijay&quot;,&quot;222&quot;:&quot;Carmen&quot;,&quot;223&quot;:&quot;Catigbian&quot;,&quot;224&quot;:&quot;Clarin&quot;,&quot;225&quot;:&quot;Corella&quot;,&quot;226&quot;:&quot;Cortes&quot;,&quot;227&quot;:&quot;Dagohoy&quot;,&quot;228&quot;:&quot;Danao&quot;,&quot;229&quot;:&quot;Dauis&quot;,&quot;230&quot;:&quot;Dimiao&quot;,&quot;231&quot;:&quot;Duero&quot;,&quot;232&quot;:&quot;Garcia Hernandez&quot;,&quot;233&quot;:&quot;Getafe&quot;,&quot;234&quot;:&quot;Guindulman&quot;,&quot;235&quot;:&quot;Inabanga&quot;,&quot;236&quot;:&quot;Jagna&quot;,&quot;237&quot;:&quot;Lila&quot;,&quot;238&quot;:&quot;Loay&quot;,&quot;239&quot;:&quot;Loboc&quot;,&quot;240&quot;:&quot;Loon&quot;,&quot;241&quot;:&quot;Mabini&quot;,&quot;242&quot;:&quot;Maribojoc&quot;,&quot;243&quot;:&quot;Panglao&quot;,&quot;244&quot;:&quot;Pilar&quot;,&quot;245&quot;:&quot;President Carlos P. Garcia&quot;,&quot;246&quot;:&quot;Sagbayan&quot;,&quot;247&quot;:&quot;San Isidro&quot;,&quot;248&quot;:&quot;San Miguel&quot;,&quot;249&quot;:&quot;Sevilla&quot;,&quot;250&quot;:&quot;Sierra Bullones&quot;,&quot;251&quot;:&quot;Sikatuna&quot;,&quot;252&quot;:&quot;Talibon&quot;,&quot;253&quot;:&quot;Trinidad&quot;,&quot;254&quot;:&quot;Tubigon&quot;,&quot;255&quot;:&quot;Ubay&quot;,&quot;256&quot;:&quot;Valencia&quot;}'>Bohol</option>
+                                            <option value="16" data-cities='{&quot;257&quot;:&quot;Malaybalay City&quot;,&quot;258&quot;:&quot;Valencia City&quot;,&quot;259&quot;:&quot;Baungon&quot;,&quot;260&quot;:&quot;Cabanglasan&quot;,&quot;261&quot;:&quot;Damulog&quot;,&quot;262&quot;:&quot;Dangcagan&quot;,&quot;263&quot;:&quot;Don Carlos&quot;,&quot;264&quot;:&quot;Impasug-ong&quot;,&quot;265&quot;:&quot;Kadingilan&quot;,&quot;266&quot;:&quot;Kalilangan&quot;,&quot;267&quot;:&quot;Kibawe&quot;,&quot;268&quot;:&quot;Kitaotao&quot;,&quot;269&quot;:&quot;Lantapan&quot;,&quot;270&quot;:&quot;Libona&quot;,&quot;271&quot;:&quot;Malitbog&quot;,&quot;272&quot;:&quot;Manolo Fortich&quot;,&quot;273&quot;:&quot;Maramag&quot;,&quot;274&quot;:&quot;Pangantucan&quot;,&quot;275&quot;:&quot;Quezon&quot;,&quot;276&quot;:&quot;San Fernando&quot;,&quot;277&quot;:&quot;Sumilao&quot;,&quot;278&quot;:&quot;Talakag&quot;}'>Bukidnon</option>
+                                            <option value="17" data-cities='{&quot;279&quot;:&quot;Malolos City&quot;,&quot;280&quot;:&quot;Meycauayan City&quot;,&quot;281&quot;:&quot;San Jose del Monte City&quot;,&quot;282&quot;:&quot;Angat&quot;,&quot;283&quot;:&quot;Balagtas&quot;,&quot;284&quot;:&quot;Baliuag&quot;,&quot;285&quot;:&quot;Bocaue&quot;,&quot;286&quot;:&quot;Bulacan&quot;,&quot;287&quot;:&quot;Bustos&quot;,&quot;288&quot;:&quot;Calumpit&quot;,&quot;289&quot;:&quot;Do\u00f1a Remedios Trinidad&quot;,&quot;290&quot;:&quot;Guiguinto&quot;,&quot;291&quot;:&quot;Hagonoy&quot;,&quot;292&quot;:&quot;Marilao&quot;,&quot;293&quot;:&quot;Norzagaray&quot;,&quot;294&quot;:&quot;Obando&quot;,&quot;295&quot;:&quot;Pandi&quot;,&quot;296&quot;:&quot;Paombong&quot;,&quot;297&quot;:&quot;Plaridel&quot;,&quot;298&quot;:&quot;Pulilan&quot;,&quot;299&quot;:&quot;San Ildefonso&quot;,&quot;300&quot;:&quot;San Miguel&quot;,&quot;301&quot;:&quot;San Rafael&quot;,&quot;302&quot;:&quot;Santa Maria&quot;}'>Bulacan</option>
+                                            <option value="18" data-cities='{&quot;303&quot;:&quot;Tuguegarao City&quot;,&quot;304&quot;:&quot;Abulug&quot;,&quot;305&quot;:&quot;Alcala&quot;,&quot;306&quot;:&quot;Allacapan&quot;,&quot;307&quot;:&quot;Amulung&quot;,&quot;308&quot;:&quot;Aparri&quot;,&quot;309&quot;:&quot;Baggao&quot;,&quot;310&quot;:&quot;Ballesteros&quot;,&quot;311&quot;:&quot;Buguey&quot;,&quot;312&quot;:&quot;Calayan&quot;,&quot;313&quot;:&quot;Camalaniugan&quot;,&quot;314&quot;:&quot;Claveria&quot;,&quot;315&quot;:&quot;Enrile&quot;,&quot;316&quot;:&quot;Gattaran&quot;,&quot;317&quot;:&quot;Gonzaga&quot;,&quot;318&quot;:&quot;Iguig&quot;,&quot;319&quot;:&quot;Lal-lo&quot;,&quot;320&quot;:&quot;Lasam&quot;,&quot;321&quot;:&quot;Pamplona&quot;,&quot;322&quot;:&quot;Pe\u00f1ablanca&quot;,&quot;323&quot;:&quot;Piat&quot;,&quot;324&quot;:&quot;Rizal&quot;,&quot;325&quot;:&quot;Sanchez-Mira&quot;,&quot;326&quot;:&quot;Santa Ana&quot;,&quot;327&quot;:&quot;Santa Praxedes&quot;,&quot;328&quot;:&quot;Santa Teresita&quot;,&quot;329&quot;:&quot;Santo Ni\u00f1o&quot;,&quot;330&quot;:&quot;Solana&quot;,&quot;331&quot;:&quot;Tuao&quot;}'>Cagayan</option>
+                                            <option value="19" data-cities='{&quot;332&quot;:&quot;Basud&quot;,&quot;333&quot;:&quot;Capalonga&quot;,&quot;334&quot;:&quot;Daet&quot;,&quot;335&quot;:&quot;Jose Panganiban&quot;,&quot;336&quot;:&quot;Labo&quot;,&quot;337&quot;:&quot;Mercedes&quot;,&quot;338&quot;:&quot;Paracale&quot;,&quot;339&quot;:&quot;San Lorenzo Ruiz&quot;,&quot;340&quot;:&quot;San Vicente&quot;,&quot;341&quot;:&quot;Santa Elena&quot;,&quot;342&quot;:&quot;Talisay&quot;,&quot;343&quot;:&quot;Vinzons&quot;}'>Camarines Norte</option>
+                                            <option value="20" data-cities='{&quot;344&quot;:&quot;Iriga City&quot;,&quot;345&quot;:&quot;Naga City&quot;,&quot;346&quot;:&quot;Baao&quot;,&quot;347&quot;:&quot;Balatan&quot;,&quot;348&quot;:&quot;Bato&quot;,&quot;349&quot;:&quot;Bombon&quot;,&quot;350&quot;:&quot;Buhi&quot;,&quot;351&quot;:&quot;Bula&quot;,&quot;352&quot;:&quot;Cabusao&quot;,&quot;353&quot;:&quot;Calabanga&quot;,&quot;354&quot;:&quot;Camaligan&quot;,&quot;355&quot;:&quot;Canaman&quot;,&quot;356&quot;:&quot;Caramoan&quot;,&quot;357&quot;:&quot;Del Gallego&quot;,&quot;358&quot;:&quot;Gainza&quot;,&quot;359&quot;:&quot;Garchitorena&quot;,&quot;360&quot;:&quot;Goa&quot;,&quot;361&quot;:&quot;Lagonoy&quot;,&quot;362&quot;:&quot;Libmanan&quot;,&quot;363&quot;:&quot;Lupi&quot;,&quot;364&quot;:&quot;Magarao&quot;,&quot;365&quot;:&quot;Milaor&quot;,&quot;366&quot;:&quot;Minalabac&quot;,&quot;367&quot;:&quot;Nabua&quot;,&quot;368&quot;:&quot;Ocampo&quot;,&quot;369&quot;:&quot;Pamplona&quot;,&quot;370&quot;:&quot;Pasacao&quot;,&quot;371&quot;:&quot;Pili&quot;,&quot;372&quot;:&quot;Presentacion&quot;,&quot;373&quot;:&quot;Ragay&quot;,&quot;374&quot;:&quot;Sag\u00f1ay&quot;,&quot;375&quot;:&quot;San Fernando&quot;,&quot;376&quot;:&quot;San Jose&quot;,&quot;377&quot;:&quot;Sipocot&quot;,&quot;378&quot;:&quot;Siruma&quot;,&quot;379&quot;:&quot;Tigaon&quot;,&quot;380&quot;:&quot;Tinambac&quot;}'>Camarines Sur</option>
+                                            <option value="21" data-cities='{&quot;381&quot;:&quot;Catarman&quot;,&quot;382&quot;:&quot;Guinsiliban&quot;,&quot;383&quot;:&quot;Mahinog&quot;,&quot;384&quot;:&quot;Mambajao&quot;,&quot;385&quot;:&quot;Sagay&quot;}'>Camiguin</option>
+                                            <option value="22" data-cities='{&quot;386&quot;:&quot;Roxas City&quot;,&quot;387&quot;:&quot;Cuartero&quot;,&quot;388&quot;:&quot;Dao&quot;,&quot;389&quot;:&quot;Dumalag&quot;,&quot;390&quot;:&quot;Dumarao&quot;,&quot;391&quot;:&quot;Ivisan&quot;,&quot;392&quot;:&quot;Jamindan&quot;,&quot;393&quot;:&quot;Ma-ayon&quot;,&quot;394&quot;:&quot;Mambusao&quot;,&quot;395&quot;:&quot;Panay&quot;,&quot;396&quot;:&quot;Panitan&quot;,&quot;397&quot;:&quot;Pilar&quot;,&quot;398&quot;:&quot;Pontevedra&quot;,&quot;399&quot;:&quot;President Roxas&quot;,&quot;400&quot;:&quot;Sapi-an&quot;,&quot;401&quot;:&quot;Sigma&quot;,&quot;402&quot;:&quot;Tapaz&quot;}'>Capiz</option>
+                                            <option value="23" data-cities='{&quot;403&quot;:&quot;Bagamanoc&quot;,&quot;404&quot;:&quot;Baras&quot;,&quot;405&quot;:&quot;Bato&quot;,&quot;406&quot;:&quot;Caramoran&quot;,&quot;407&quot;:&quot;Gigmoto&quot;,&quot;408&quot;:&quot;Pandan&quot;,&quot;409&quot;:&quot;Panganiban&quot;,&quot;410&quot;:&quot;San Andres&quot;,&quot;411&quot;:&quot;San Miguel&quot;,&quot;412&quot;:&quot;Viga&quot;,&quot;413&quot;:&quot;Virac&quot;}'>Catanduanes</option>
+                                            <option value="24" data-cities='{&quot;414&quot;:&quot;Cavite City&quot;,&quot;415&quot;:&quot;Dasmari\u00f1as City&quot;,&quot;416&quot;:&quot;Tagaytay City&quot;,&quot;417&quot;:&quot;Trece Martires City&quot;,&quot;418&quot;:&quot;Alfonso&quot;,&quot;419&quot;:&quot;Amadeo&quot;,&quot;420&quot;:&quot;Bacoor&quot;,&quot;421&quot;:&quot;Carmona&quot;,&quot;422&quot;:&quot;General Mariano Alvarez&quot;,&quot;423&quot;:&quot;General Emilio Aguinaldo&quot;,&quot;424&quot;:&quot;General Trias&quot;,&quot;425&quot;:&quot;Imus&quot;,&quot;426&quot;:&quot;Indang&quot;,&quot;427&quot;:&quot;Kawit&quot;,&quot;428&quot;:&quot;Magallanes&quot;,&quot;429&quot;:&quot;Maragondon&quot;,&quot;430&quot;:&quot;Mendez&quot;,&quot;431&quot;:&quot;Naic&quot;,&quot;432&quot;:&quot;Noveleta&quot;,&quot;433&quot;:&quot;Rosario&quot;,&quot;434&quot;:&quot;Silang&quot;,&quot;435&quot;:&quot;Tanza&quot;,&quot;436&quot;:&quot;Ternate&quot;}'>Cavite</option>
+                                            <option value="25" data-cities='{&quot;437&quot;:&quot;Bogo City&quot;,&quot;438&quot;:&quot;Cebu City&quot;,&quot;439&quot;:&quot;Carcar City&quot;,&quot;440&quot;:&quot;Danao City&quot;,&quot;441&quot;:&quot;Lapu-Lapu City&quot;,&quot;442&quot;:&quot;Mandaue City&quot;,&quot;443&quot;:&quot;Naga City&quot;,&quot;444&quot;:&quot;Talisay City&quot;,&quot;445&quot;:&quot;Toledo City&quot;,&quot;446&quot;:&quot;Alcantara&quot;,&quot;447&quot;:&quot;Alcoy&quot;,&quot;448&quot;:&quot;Alegria&quot;,&quot;449&quot;:&quot;Aloguinsan&quot;,&quot;450&quot;:&quot;Argao&quot;,&quot;451&quot;:&quot;Asturias&quot;,&quot;452&quot;:&quot;Badian&quot;,&quot;453&quot;:&quot;Balamban&quot;,&quot;454&quot;:&quot;Bantayan&quot;,&quot;455&quot;:&quot;Barili&quot;,&quot;456&quot;:&quot;Boljoon&quot;,&quot;457&quot;:&quot;Borbon&quot;,&quot;458&quot;:&quot;Carmen&quot;,&quot;459&quot;:&quot;Catmon&quot;,&quot;460&quot;:&quot;Compostela&quot;,&quot;461&quot;:&quot;Consolacion&quot;,&quot;462&quot;:&quot;Cordoba&quot;,&quot;463&quot;:&quot;Daanbantayan&quot;,&quot;464&quot;:&quot;Dalaguete&quot;,&quot;465&quot;:&quot;Dumanjug&quot;,&quot;466&quot;:&quot;Ginatilan&quot;,&quot;467&quot;:&quot;Liloan&quot;,&quot;468&quot;:&quot;Madridejos&quot;,&quot;469&quot;:&quot;Malabuyoc&quot;,&quot;470&quot;:&quot;Medellin&quot;,&quot;471&quot;:&quot;Minglanilla&quot;,&quot;472&quot;:&quot;Moalboal&quot;,&quot;473&quot;:&quot;Oslob&quot;,&quot;474&quot;:&quot;Pilar&quot;,&quot;475&quot;:&quot;Pinamungahan&quot;,&quot;476&quot;:&quot;Poro&quot;,&quot;477&quot;:&quot;Ronda&quot;,&quot;478&quot;:&quot;Samboan&quot;,&quot;479&quot;:&quot;San Fernando&quot;,&quot;480&quot;:&quot;San Francisco&quot;,&quot;481&quot;:&quot;San Remigio&quot;,&quot;482&quot;:&quot;Santa Fe&quot;,&quot;483&quot;:&quot;Santander&quot;,&quot;484&quot;:&quot;Sibonga&quot;,&quot;485&quot;:&quot;Sogod&quot;,&quot;486&quot;:&quot;Tabogon&quot;,&quot;487&quot;:&quot;Tabuelan&quot;,&quot;488&quot;:&quot;Tuburan&quot;,&quot;489&quot;:&quot;Tudela&quot;}'>Cebu</option>
+                                            <option value="26" data-cities='{&quot;490&quot;:&quot;Compostela&quot;,&quot;491&quot;:&quot;Laak&quot;,&quot;492&quot;:&quot;Mabini&quot;,&quot;493&quot;:&quot;Maco&quot;,&quot;494&quot;:&quot;Maragusan&quot;,&quot;495&quot;:&quot;Mawab&quot;,&quot;496&quot;:&quot;Monkayo&quot;,&quot;497&quot;:&quot;Montevista&quot;,&quot;498&quot;:&quot;Nabunturan&quot;,&quot;499&quot;:&quot;New Bataan&quot;,&quot;500&quot;:&quot;Pantukan&quot;}'>Compostela Valley</option>
+                                            <option value="27" data-cities='{&quot;501&quot;:&quot;Kidapawan City&quot;,&quot;502&quot;:&quot;Alamada&quot;,&quot;503&quot;:&quot;Aleosan&quot;,&quot;504&quot;:&quot;Antipas&quot;,&quot;505&quot;:&quot;Arakan&quot;,&quot;506&quot;:&quot;Banisilan&quot;,&quot;507&quot;:&quot;Carmen&quot;,&quot;508&quot;:&quot;Kabacan&quot;,&quot;509&quot;:&quot;Libungan&quot;,&quot;510&quot;:&quot;M&#039;lang&quot;,&quot;511&quot;:&quot;Magpet&quot;,&quot;512&quot;:&quot;Makilala&quot;,&quot;513&quot;:&quot;Matalam&quot;,&quot;514&quot;:&quot;Midsayap&quot;,&quot;515&quot;:&quot;Pigkawayan&quot;,&quot;516&quot;:&quot;Pikit&quot;,&quot;517&quot;:&quot;President Roxas&quot;,&quot;518&quot;:&quot;Tulunan&quot;}'>Cotabato</option>
+                                            <option value="28" data-cities='{&quot;519&quot;:&quot;Panabo City&quot;,&quot;520&quot;:&quot;Island Garden City of Samal&quot;,&quot;521&quot;:&quot;Tagum City&quot;,&quot;522&quot;:&quot;Asuncion&quot;,&quot;523&quot;:&quot;Braulio E. Dujali&quot;,&quot;524&quot;:&quot;Carmen&quot;,&quot;525&quot;:&quot;Kapalong&quot;,&quot;526&quot;:&quot;New Corella&quot;,&quot;527&quot;:&quot;San Isidro&quot;,&quot;528&quot;:&quot;Santo Tomas&quot;,&quot;529&quot;:&quot;Talaingod&quot;}'>Davao del Norte</option>
+                                            <option value="29" data-cities='{&quot;530&quot;:&quot;Davao City&quot;,&quot;531&quot;:&quot;Digos City&quot;,&quot;532&quot;:&quot;Bansalan&quot;,&quot;533&quot;:&quot;Don Marcelino&quot;,&quot;534&quot;:&quot;Hagonoy&quot;,&quot;535&quot;:&quot;Jose Abad Santos&quot;,&quot;536&quot;:&quot;Kiblawan&quot;,&quot;537&quot;:&quot;Magsaysay&quot;,&quot;538&quot;:&quot;Malalag&quot;,&quot;539&quot;:&quot;Malita&quot;,&quot;540&quot;:&quot;Matanao&quot;,&quot;541&quot;:&quot;Padada&quot;,&quot;542&quot;:&quot;Santa Cruz&quot;,&quot;543&quot;:&quot;Santa Maria&quot;,&quot;544&quot;:&quot;Sarangani&quot;,&quot;545&quot;:&quot;Sulop&quot;}'>Davao del Sur</option>
+                                            <option value="30" data-cities='{&quot;546&quot;:&quot;Mati City&quot;,&quot;547&quot;:&quot;Baganga&quot;,&quot;548&quot;:&quot;Banaybanay&quot;,&quot;549&quot;:&quot;Boston&quot;,&quot;550&quot;:&quot;Caraga&quot;,&quot;551&quot;:&quot;Cateel&quot;,&quot;552&quot;:&quot;Governor Generoso&quot;,&quot;553&quot;:&quot;Lupon&quot;,&quot;554&quot;:&quot;Manay&quot;,&quot;555&quot;:&quot;San Isidro&quot;,&quot;556&quot;:&quot;Tarragona&quot;}'>Davao Oriental</option>
+                                            <option value="31" data-cities='{&quot;557&quot;:&quot;Arteche&quot;,&quot;558&quot;:&quot;Balangiga&quot;,&quot;559&quot;:&quot;Balangkayan&quot;,&quot;560&quot;:&quot;Borongan&quot;,&quot;561&quot;:&quot;Can-avid&quot;,&quot;562&quot;:&quot;Dolores&quot;,&quot;563&quot;:&quot;General MacArthur&quot;,&quot;564&quot;:&quot;Giporlos&quot;,&quot;565&quot;:&quot;Guiuan&quot;,&quot;566&quot;:&quot;Hernani&quot;,&quot;567&quot;:&quot;Jipapad&quot;,&quot;568&quot;:&quot;Lawaan&quot;,&quot;569&quot;:&quot;Llorente&quot;,&quot;570&quot;:&quot;Maslog&quot;,&quot;571&quot;:&quot;Maydolong&quot;,&quot;572&quot;:&quot;Mercedes&quot;,&quot;573&quot;:&quot;Oras&quot;,&quot;574&quot;:&quot;Quinapondan&quot;,&quot;575&quot;:&quot;Salcedo&quot;,&quot;576&quot;:&quot;San Julian&quot;,&quot;577&quot;:&quot;San Policarpo&quot;,&quot;578&quot;:&quot;Sulat&quot;,&quot;579&quot;:&quot;Taft&quot;}'>Eastern Samar</option>
+                                            <option value="32" data-cities='{&quot;580&quot;:&quot;Buenavista&quot;,&quot;581&quot;:&quot;Jordan&quot;,&quot;582&quot;:&quot;Nueva Valencia&quot;,&quot;583&quot;:&quot;San Lorenzo&quot;,&quot;584&quot;:&quot;Sibunag&quot;}'>Guimaras</option>
+                                            <option value="33" data-cities='{&quot;585&quot;:&quot;Aguinaldo&quot;,&quot;586&quot;:&quot;Alfonso Lista&quot;,&quot;587&quot;:&quot;Asipulo&quot;,&quot;588&quot;:&quot;Banaue&quot;,&quot;589&quot;:&quot;Hingyon&quot;,&quot;590&quot;:&quot;Hungduan&quot;,&quot;591&quot;:&quot;Kiangan&quot;,&quot;592&quot;:&quot;Lagawe&quot;,&quot;593&quot;:&quot;Lamut&quot;,&quot;594&quot;:&quot;Mayoyao&quot;,&quot;595&quot;:&quot;Tinoc&quot;}'>Ifugao</option>
+                                            <option value="34" data-cities='{&quot;596&quot;:&quot;Batac City&quot;,&quot;597&quot;:&quot;Laoag City&quot;,&quot;598&quot;:&quot;Adams&quot;,&quot;599&quot;:&quot;Bacarra&quot;,&quot;600&quot;:&quot;Badoc&quot;,&quot;601&quot;:&quot;Bangui&quot;,&quot;602&quot;:&quot;Banna&quot;,&quot;603&quot;:&quot;Burgos&quot;,&quot;604&quot;:&quot;Carasi&quot;,&quot;605&quot;:&quot;Currimao&quot;,&quot;606&quot;:&quot;Dingras&quot;,&quot;607&quot;:&quot;Dumalneg&quot;,&quot;608&quot;:&quot;Marcos&quot;,&quot;609&quot;:&quot;Nueva Era&quot;,&quot;610&quot;:&quot;Pagudpud&quot;,&quot;611&quot;:&quot;Paoay&quot;,&quot;612&quot;:&quot;Pasuquin&quot;,&quot;613&quot;:&quot;Piddig&quot;,&quot;614&quot;:&quot;Pinili&quot;,&quot;615&quot;:&quot;San Nicolas&quot;,&quot;616&quot;:&quot;Sarrat&quot;,&quot;617&quot;:&quot;Solsona&quot;,&quot;618&quot;:&quot;Vintar&quot;}'>Ilocos Norte</option>
+                                            <option value="35" data-cities='{&quot;619&quot;:&quot;Candon City&quot;,&quot;620&quot;:&quot;Vigan City&quot;,&quot;621&quot;:&quot;Alilem&quot;,&quot;622&quot;:&quot;Banayoyo&quot;,&quot;623&quot;:&quot;Bantay&quot;,&quot;624&quot;:&quot;Burgos&quot;,&quot;625&quot;:&quot;Cabugao&quot;,&quot;626&quot;:&quot;Caoayan&quot;,&quot;627&quot;:&quot;Cervantes&quot;,&quot;628&quot;:&quot;Galimuyod&quot;,&quot;629&quot;:&quot;Gregorio Del Pilar&quot;,&quot;630&quot;:&quot;Lidlidda&quot;,&quot;631&quot;:&quot;Magsingal&quot;,&quot;632&quot;:&quot;Nagbukel&quot;,&quot;633&quot;:&quot;Narvacan&quot;,&quot;634&quot;:&quot;Quirino&quot;,&quot;635&quot;:&quot;Salcedo&quot;,&quot;636&quot;:&quot;San Emilio&quot;,&quot;637&quot;:&quot;San Esteban&quot;,&quot;638&quot;:&quot;San Ildefonso&quot;,&quot;639&quot;:&quot;San Juan&quot;,&quot;640&quot;:&quot;San Vicente&quot;,&quot;641&quot;:&quot;Santa&quot;,&quot;642&quot;:&quot;Santa Catalina&quot;,&quot;643&quot;:&quot;Santa Cruz&quot;,&quot;644&quot;:&quot;Santa Lucia&quot;,&quot;645&quot;:&quot;Santa Maria&quot;,&quot;646&quot;:&quot;Santiago&quot;,&quot;647&quot;:&quot;Santo Domingo&quot;,&quot;648&quot;:&quot;Sigay&quot;,&quot;649&quot;:&quot;Sinait&quot;,&quot;650&quot;:&quot;Sugpon&quot;,&quot;651&quot;:&quot;Suyo&quot;,&quot;652&quot;:&quot;Tagudin&quot;}'>Ilocos Sur</option>
+                                            <option value="36" data-cities='{&quot;653&quot;:&quot;Iloilo City&quot;,&quot;654&quot;:&quot;Passi City&quot;,&quot;655&quot;:&quot;Ajuy&quot;,&quot;656&quot;:&quot;Alimodian&quot;,&quot;657&quot;:&quot;Anilao&quot;,&quot;658&quot;:&quot;Badiangan&quot;,&quot;659&quot;:&quot;Balasan&quot;,&quot;660&quot;:&quot;Banate&quot;,&quot;661&quot;:&quot;Barotac Nuevo&quot;,&quot;662&quot;:&quot;Barotac Viejo&quot;,&quot;663&quot;:&quot;Batad&quot;,&quot;664&quot;:&quot;Bingawan&quot;,&quot;665&quot;:&quot;Cabatuan&quot;,&quot;666&quot;:&quot;Calinog&quot;,&quot;667&quot;:&quot;Carles&quot;,&quot;668&quot;:&quot;Concepcion&quot;,&quot;669&quot;:&quot;Dingle&quot;,&quot;670&quot;:&quot;Due\u00f1as&quot;,&quot;671&quot;:&quot;Dumangas&quot;,&quot;672&quot;:&quot;Estancia&quot;,&quot;673&quot;:&quot;Guimbal&quot;,&quot;674&quot;:&quot;Igbaras&quot;,&quot;675&quot;:&quot;Janiuay&quot;,&quot;676&quot;:&quot;Lambunao&quot;,&quot;677&quot;:&quot;Leganes&quot;,&quot;678&quot;:&quot;Lemery&quot;,&quot;679&quot;:&quot;Leon&quot;,&quot;680&quot;:&quot;Maasin&quot;,&quot;681&quot;:&quot;Miagao&quot;,&quot;682&quot;:&quot;Mina&quot;,&quot;683&quot;:&quot;New Lucena&quot;,&quot;684&quot;:&quot;Oton&quot;,&quot;685&quot;:&quot;Pavia&quot;,&quot;686&quot;:&quot;Pototan&quot;,&quot;687&quot;:&quot;San Dionisio&quot;,&quot;688&quot;:&quot;San Enrique&quot;,&quot;689&quot;:&quot;San Joaquin&quot;,&quot;690&quot;:&quot;San Miguel&quot;,&quot;691&quot;:&quot;San Rafael&quot;,&quot;692&quot;:&quot;Santa Barbara&quot;,&quot;693&quot;:&quot;Sara&quot;,&quot;694&quot;:&quot;Tigbauan&quot;,&quot;695&quot;:&quot;Tubungan&quot;,&quot;696&quot;:&quot;Zarraga&quot;}'>Iloilo</option>
+                                            <option value="37" data-cities='{&quot;697&quot;:&quot;Cauayan City&quot;,&quot;698&quot;:&quot;Santiago City&quot;,&quot;699&quot;:&quot;Alicia&quot;,&quot;700&quot;:&quot;Angadanan&quot;,&quot;701&quot;:&quot;Aurora&quot;,&quot;702&quot;:&quot;Benito Soliven&quot;,&quot;703&quot;:&quot;Burgos&quot;,&quot;704&quot;:&quot;Cabagan&quot;,&quot;705&quot;:&quot;Cabatuan&quot;,&quot;706&quot;:&quot;Cordon&quot;,&quot;707&quot;:&quot;Delfin Albano&quot;,&quot;708&quot;:&quot;Dinapigue&quot;,&quot;709&quot;:&quot;Divilacan&quot;,&quot;710&quot;:&quot;Echague&quot;,&quot;711&quot;:&quot;Gamu&quot;,&quot;712&quot;:&quot;Ilagan&quot;,&quot;713&quot;:&quot;Jones&quot;,&quot;714&quot;:&quot;Luna&quot;,&quot;715&quot;:&quot;Maconacon&quot;,&quot;716&quot;:&quot;Mallig&quot;,&quot;717&quot;:&quot;Naguilian&quot;,&quot;718&quot;:&quot;Palanan&quot;,&quot;719&quot;:&quot;Quezon&quot;,&quot;720&quot;:&quot;Quirino&quot;,&quot;721&quot;:&quot;Ramon&quot;,&quot;722&quot;:&quot;Reina Mercedes&quot;,&quot;723&quot;:&quot;Roxas&quot;,&quot;724&quot;:&quot;San Agustin&quot;,&quot;725&quot;:&quot;San Guillermo&quot;,&quot;726&quot;:&quot;San Isidro&quot;,&quot;727&quot;:&quot;San Manuel&quot;,&quot;728&quot;:&quot;San Mariano&quot;,&quot;729&quot;:&quot;San Mateo&quot;,&quot;730&quot;:&quot;San Pablo&quot;,&quot;731&quot;:&quot;Santa Maria&quot;,&quot;732&quot;:&quot;Santo Tomas&quot;,&quot;733&quot;:&quot;Tumauini&quot;}'>Isabela</option>
+                                            <option value="38" data-cities='{&quot;734&quot;:&quot;Tabuk&quot;,&quot;735&quot;:&quot;Balbalan&quot;,&quot;736&quot;:&quot;Lubuagan&quot;,&quot;737&quot;:&quot;Pasil&quot;,&quot;738&quot;:&quot;Pinukpuk&quot;,&quot;739&quot;:&quot;Rizal&quot;,&quot;740&quot;:&quot;Tanudan&quot;,&quot;741&quot;:&quot;Tinglayan&quot;}'>Kalinga</option>
+                                            <option value="39" data-cities='{&quot;742&quot;:&quot;San Fernando City&quot;,&quot;743&quot;:&quot;Agoo&quot;,&quot;744&quot;:&quot;Aringay&quot;,&quot;745&quot;:&quot;Bacnotan&quot;,&quot;746&quot;:&quot;Bagulin&quot;,&quot;747&quot;:&quot;Balaoan&quot;,&quot;748&quot;:&quot;Bangar&quot;,&quot;749&quot;:&quot;Bauang&quot;,&quot;750&quot;:&quot;Burgos&quot;,&quot;751&quot;:&quot;Caba&quot;,&quot;752&quot;:&quot;Luna&quot;,&quot;753&quot;:&quot;Naguilian&quot;,&quot;754&quot;:&quot;Pugo&quot;,&quot;755&quot;:&quot;Rosario&quot;,&quot;756&quot;:&quot;San Gabriel&quot;,&quot;757&quot;:&quot;San Juan&quot;,&quot;758&quot;:&quot;Santo Tomas&quot;,&quot;759&quot;:&quot;Santol&quot;,&quot;760&quot;:&quot;Sudipen&quot;,&quot;761&quot;:&quot;Tubao&quot;}'>La Union</option>
+                                            <option value="40" data-cities='{&quot;762&quot;:&quot;Bi\u00f1an City&quot;,&quot;763&quot;:&quot;Calamba City&quot;,&quot;764&quot;:&quot;San Pablo City&quot;,&quot;765&quot;:&quot;Santa Rosa City, Laguna&quot;,&quot;766&quot;:&quot;Alaminos&quot;,&quot;767&quot;:&quot;Bay&quot;,&quot;768&quot;:&quot;Cabuyao, Laguna&quot;,&quot;769&quot;:&quot;Calauan&quot;,&quot;770&quot;:&quot;Cavinti&quot;,&quot;771&quot;:&quot;Famy&quot;,&quot;772&quot;:&quot;Kalayaan&quot;,&quot;773&quot;:&quot;Liliw&quot;,&quot;774&quot;:&quot;Los Ba\u00f1os&quot;,&quot;775&quot;:&quot;Luisiana&quot;,&quot;776&quot;:&quot;Lumban&quot;,&quot;777&quot;:&quot;Mabitac&quot;,&quot;778&quot;:&quot;Magdalena&quot;,&quot;779&quot;:&quot;Majayjay&quot;,&quot;780&quot;:&quot;Nagcarlan&quot;,&quot;781&quot;:&quot;Paete&quot;,&quot;782&quot;:&quot;Pagsanjan&quot;,&quot;783&quot;:&quot;Pakil&quot;,&quot;784&quot;:&quot;Pangil&quot;,&quot;785&quot;:&quot;Pila&quot;,&quot;786&quot;:&quot;Rizal&quot;,&quot;787&quot;:&quot;San Pedro&quot;,&quot;788&quot;:&quot;Santa Cruz&quot;,&quot;789&quot;:&quot;Santa Maria&quot;,&quot;790&quot;:&quot;Siniloan&quot;,&quot;791&quot;:&quot;Victoria&quot;}'>Laguna</option>
+                                            <option value="41" data-cities='{&quot;792&quot;:&quot;Iligan City&quot;,&quot;793&quot;:&quot;Bacolod&quot;,&quot;794&quot;:&quot;Baloi&quot;,&quot;795&quot;:&quot;Baroy&quot;,&quot;796&quot;:&quot;Kapatagan&quot;,&quot;797&quot;:&quot;Kauswagan&quot;,&quot;798&quot;:&quot;Kolambugan&quot;,&quot;799&quot;:&quot;Lala&quot;,&quot;800&quot;:&quot;Linamon&quot;,&quot;801&quot;:&quot;Magsaysay&quot;,&quot;802&quot;:&quot;Maigo&quot;,&quot;803&quot;:&quot;Matungao&quot;,&quot;804&quot;:&quot;Munai&quot;,&quot;805&quot;:&quot;Nunungan&quot;,&quot;806&quot;:&quot;Pantao Ragat&quot;,&quot;807&quot;:&quot;Pantar&quot;,&quot;808&quot;:&quot;Poona Piagapo&quot;,&quot;809&quot;:&quot;Salvador&quot;,&quot;810&quot;:&quot;Sapad&quot;,&quot;811&quot;:&quot;Sultan Naga Dimaporo&quot;,&quot;812&quot;:&quot;Tagoloan&quot;,&quot;813&quot;:&quot;Tangcal&quot;,&quot;814&quot;:&quot;Tubod&quot;}'>Lanao del Norte</option>
+                                            <option value="42" data-cities='{&quot;815&quot;:&quot;Marawi City&quot;,&quot;816&quot;:&quot;Bacolod-Kalawi&quot;,&quot;817&quot;:&quot;Balabagan&quot;,&quot;818&quot;:&quot;Balindong&quot;,&quot;819&quot;:&quot;Bayang&quot;,&quot;820&quot;:&quot;Binidayan&quot;,&quot;821&quot;:&quot;Buadiposo-Buntong&quot;,&quot;822&quot;:&quot;Bubong&quot;,&quot;823&quot;:&quot;Bumbaran&quot;,&quot;824&quot;:&quot;Butig&quot;,&quot;825&quot;:&quot;Calanogas&quot;,&quot;826&quot;:&quot;Ditsaan-Ramain&quot;,&quot;827&quot;:&quot;Ganassi&quot;,&quot;828&quot;:&quot;Kapai&quot;,&quot;829&quot;:&quot;Kapatagan&quot;,&quot;830&quot;:&quot;Lumba-Bayabao&quot;,&quot;831&quot;:&quot;Lumbaca-Unayan&quot;,&quot;832&quot;:&quot;Lumbatan&quot;,&quot;833&quot;:&quot;Lumbayanague&quot;,&quot;834&quot;:&quot;Madalum&quot;,&quot;835&quot;:&quot;Madamba&quot;,&quot;836&quot;:&quot;Maguing&quot;,&quot;837&quot;:&quot;Malabang&quot;,&quot;838&quot;:&quot;Marantao&quot;,&quot;839&quot;:&quot;Marogong&quot;,&quot;840&quot;:&quot;Masiu&quot;,&quot;841&quot;:&quot;Mulondo&quot;,&quot;842&quot;:&quot;Pagayawan&quot;,&quot;843&quot;:&quot;Piagapo&quot;,&quot;844&quot;:&quot;Poona Bayabao&quot;,&quot;845&quot;:&quot;Pualas&quot;,&quot;846&quot;:&quot;Saguiaran&quot;,&quot;847&quot;:&quot;Sultan Dumalondong&quot;,&quot;848&quot;:&quot;Picong&quot;,&quot;849&quot;:&quot;Tagoloan II&quot;,&quot;850&quot;:&quot;Tamparan&quot;,&quot;851&quot;:&quot;Taraka&quot;,&quot;852&quot;:&quot;Tubaran&quot;,&quot;853&quot;:&quot;Tugaya&quot;,&quot;854&quot;:&quot;Wao&quot;}'>Lanao del Sur</option>
+                                            <option value="43" data-cities='{&quot;855&quot;:&quot;Ormoc City&quot;,&quot;856&quot;:&quot;Tacloban City&quot;,&quot;857&quot;:&quot;Abuyog&quot;,&quot;858&quot;:&quot;Alangalang&quot;,&quot;859&quot;:&quot;Albuera&quot;,&quot;860&quot;:&quot;Babatngon&quot;,&quot;861&quot;:&quot;Barugo&quot;,&quot;862&quot;:&quot;Bato&quot;,&quot;863&quot;:&quot;Baybay&quot;,&quot;864&quot;:&quot;Burauen&quot;,&quot;865&quot;:&quot;Calubian&quot;,&quot;866&quot;:&quot;Capoocan&quot;,&quot;867&quot;:&quot;Carigara&quot;,&quot;868&quot;:&quot;Dagami&quot;,&quot;869&quot;:&quot;Dulag&quot;,&quot;870&quot;:&quot;Hilongos&quot;,&quot;871&quot;:&quot;Hindang&quot;,&quot;872&quot;:&quot;Inopacan&quot;,&quot;873&quot;:&quot;Isabel&quot;,&quot;874&quot;:&quot;Jaro&quot;,&quot;875&quot;:&quot;Javier&quot;,&quot;876&quot;:&quot;Julita&quot;,&quot;877&quot;:&quot;Kananga&quot;,&quot;878&quot;:&quot;La Paz&quot;,&quot;879&quot;:&quot;Leyte&quot;,&quot;880&quot;:&quot;Liloan&quot;,&quot;881&quot;:&quot;MacArthur&quot;,&quot;882&quot;:&quot;Mahaplag&quot;,&quot;883&quot;:&quot;Matag-ob&quot;,&quot;884&quot;:&quot;Matalom&quot;,&quot;885&quot;:&quot;Mayorga&quot;,&quot;886&quot;:&quot;Merida&quot;,&quot;887&quot;:&quot;Palo&quot;,&quot;888&quot;:&quot;Palompon&quot;,&quot;889&quot;:&quot;Pastrana&quot;,&quot;890&quot;:&quot;San Isidro&quot;,&quot;891&quot;:&quot;San Miguel&quot;,&quot;892&quot;:&quot;Santa Fe&quot;,&quot;893&quot;:&quot;Sogod&quot;,&quot;894&quot;:&quot;Tabango&quot;,&quot;895&quot;:&quot;Tabontabon&quot;,&quot;896&quot;:&quot;Tanauan&quot;,&quot;897&quot;:&quot;Tolosa&quot;,&quot;898&quot;:&quot;Tunga&quot;,&quot;899&quot;:&quot;Villaba&quot;}'>Leyte</option>
+                                            <option value="44" data-cities='{&quot;900&quot;:&quot;Cotabato City&quot;,&quot;901&quot;:&quot;Ampatuan&quot;,&quot;902&quot;:&quot;Barira&quot;,&quot;903&quot;:&quot;Buldon&quot;,&quot;904&quot;:&quot;Buluan&quot;,&quot;905&quot;:&quot;Datu Abdullah Sangki&quot;,&quot;906&quot;:&quot;Datu Anggal Midtimbang&quot;,&quot;907&quot;:&quot;Datu Blah T. Sinsuat&quot;,&quot;908&quot;:&quot;Datu Hoffer Ampatuan&quot;,&quot;909&quot;:&quot;Datu Montawal&quot;,&quot;910&quot;:&quot;Datu Odin Sinsuat&quot;,&quot;911&quot;:&quot;Datu Paglas&quot;,&quot;912&quot;:&quot;Datu Piang&quot;,&quot;913&quot;:&quot;Datu Salibo&quot;,&quot;914&quot;:&quot;Datu Saudi-Ampatuan&quot;,&quot;915&quot;:&quot;Datu Unsay&quot;,&quot;916&quot;:&quot;General Salipada K. Pendatun&quot;,&quot;917&quot;:&quot;Guindulungan&quot;,&quot;918&quot;:&quot;Kabuntalan&quot;,&quot;919&quot;:&quot;Mamasapano&quot;,&quot;920&quot;:&quot;Mangudadatu&quot;,&quot;921&quot;:&quot;Matanog&quot;,&quot;922&quot;:&quot;Northern Kabuntalan&quot;,&quot;923&quot;:&quot;Pagalungan&quot;,&quot;924&quot;:&quot;Paglat&quot;,&quot;925&quot;:&quot;Pandag&quot;,&quot;926&quot;:&quot;Parang&quot;,&quot;927&quot;:&quot;Rajah Buayan&quot;,&quot;928&quot;:&quot;Shariff Aguak&quot;,&quot;929&quot;:&quot;Shariff Saydona Mustapha&quot;,&quot;930&quot;:&quot;South Upi&quot;,&quot;931&quot;:&quot;Sultan Kudarat&quot;,&quot;932&quot;:&quot;Sultan Mastura&quot;,&quot;933&quot;:&quot;Sultan sa Barongis&quot;,&quot;934&quot;:&quot;Talayan&quot;,&quot;935&quot;:&quot;Talitay&quot;,&quot;936&quot;:&quot;Upi&quot;}'>Maguindanao</option>
+                                            <option value="45" data-cities='{&quot;937&quot;:&quot;Boac&quot;,&quot;938&quot;:&quot;Buenavista&quot;,&quot;939&quot;:&quot;Gasan&quot;,&quot;940&quot;:&quot;Mogpog&quot;,&quot;941&quot;:&quot;Santa Cruz&quot;,&quot;942&quot;:&quot;Torrijos&quot;}'>Marinduque</option>
+                                            <option value="46" data-cities='{&quot;943&quot;:&quot;Masbate City&quot;,&quot;944&quot;:&quot;Aroroy&quot;,&quot;945&quot;:&quot;Baleno&quot;,&quot;946&quot;:&quot;Balud&quot;,&quot;947&quot;:&quot;Batuan&quot;,&quot;948&quot;:&quot;Cataingan&quot;,&quot;949&quot;:&quot;Cawayan&quot;,&quot;950&quot;:&quot;Claveria&quot;,&quot;951&quot;:&quot;Dimasalang&quot;,&quot;952&quot;:&quot;Esperanza&quot;,&quot;953&quot;:&quot;Mandaon&quot;,&quot;954&quot;:&quot;Milagros&quot;,&quot;955&quot;:&quot;Mobo&quot;,&quot;956&quot;:&quot;Monreal&quot;,&quot;957&quot;:&quot;Palanas&quot;,&quot;958&quot;:&quot;Pio V. Corpuz&quot;,&quot;959&quot;:&quot;Placer&quot;,&quot;960&quot;:&quot;San Fernando&quot;,&quot;961&quot;:&quot;San Jacinto&quot;,&quot;962&quot;:&quot;San Pascual&quot;,&quot;963&quot;:&quot;Uson&quot;}'>Masbate</option>
+                                            <option value="47" data-cities='{&quot;964&quot;:&quot;Caloocan&quot;,&quot;965&quot;:&quot;Las Pi\u00f1as&quot;,&quot;966&quot;:&quot;Makati&quot;,&quot;967&quot;:&quot;Malabon&quot;,&quot;968&quot;:&quot;Mandaluyong&quot;,&quot;969&quot;:&quot;Manila&quot;,&quot;970&quot;:&quot;Marikina&quot;,&quot;971&quot;:&quot;Muntinlupa&quot;,&quot;972&quot;:&quot;Navotas&quot;,&quot;973&quot;:&quot;Para\u00f1aque&quot;,&quot;974&quot;:&quot;Pasay&quot;,&quot;975&quot;:&quot;Pasig&quot;,&quot;976&quot;:&quot;Quezon City&quot;,&quot;977&quot;:&quot;San Juan City&quot;,&quot;978&quot;:&quot;Taguig&quot;,&quot;979&quot;:&quot;Valenzuela City&quot;,&quot;980&quot;:&quot;Pateros&quot;}' selected>Metro Manila</option>
+                                            <option value="48" data-cities='{&quot;981&quot;:&quot;Oroquieta City&quot;,&quot;982&quot;:&quot;Ozamiz City&quot;,&quot;983&quot;:&quot;Tangub City&quot;,&quot;984&quot;:&quot;Aloran&quot;,&quot;985&quot;:&quot;Baliangao&quot;,&quot;986&quot;:&quot;Bonifacio&quot;,&quot;987&quot;:&quot;Calamba&quot;,&quot;988&quot;:&quot;Clarin&quot;,&quot;989&quot;:&quot;Concepcion&quot;,&quot;990&quot;:&quot;Don Victoriano Chiongbian&quot;,&quot;991&quot;:&quot;Jimenez&quot;,&quot;992&quot;:&quot;Lopez Jaena&quot;,&quot;993&quot;:&quot;Panaon&quot;,&quot;994&quot;:&quot;Plaridel&quot;,&quot;995&quot;:&quot;Sapang Dalaga&quot;,&quot;996&quot;:&quot;Sinacaban&quot;,&quot;997&quot;:&quot;Tudela&quot;}'>Misamis Occidental</option>
+                                            <option value="49" data-cities='{&quot;998&quot;:&quot;Cagayan de Oro&quot;,&quot;999&quot;:&quot;Gingoog City&quot;,&quot;1000&quot;:&quot;Alubijid&quot;,&quot;1001&quot;:&quot;Balingasag&quot;,&quot;1002&quot;:&quot;Balingoan&quot;,&quot;1003&quot;:&quot;Binuangan&quot;,&quot;1004&quot;:&quot;Claveria&quot;,&quot;1005&quot;:&quot;El Salvador&quot;,&quot;1006&quot;:&quot;Gitagum&quot;,&quot;1007&quot;:&quot;Initao&quot;,&quot;1008&quot;:&quot;Jasaan&quot;,&quot;1009&quot;:&quot;Kinoguitan&quot;,&quot;1010&quot;:&quot;Lagonglong&quot;,&quot;1011&quot;:&quot;Laguindingan&quot;,&quot;1012&quot;:&quot;Libertad&quot;,&quot;1013&quot;:&quot;Lugait&quot;,&quot;1014&quot;:&quot;Magsaysay&quot;,&quot;1015&quot;:&quot;Manticao&quot;,&quot;1016&quot;:&quot;Medina&quot;,&quot;1017&quot;:&quot;Naawan&quot;,&quot;1018&quot;:&quot;Opol&quot;,&quot;1019&quot;:&quot;Salay&quot;,&quot;1020&quot;:&quot;Sugbongcogon&quot;,&quot;1021&quot;:&quot;Tagoloan&quot;,&quot;1022&quot;:&quot;Talisayan&quot;,&quot;1023&quot;:&quot;Villanueva&quot;}'>Misamis Oriental</option>
+                                            <option value="50" data-cities='{&quot;1024&quot;:&quot;Barlig&quot;,&quot;1025&quot;:&quot;Bauko&quot;,&quot;1026&quot;:&quot;Besao&quot;,&quot;1027&quot;:&quot;Bontoc&quot;,&quot;1028&quot;:&quot;Natonin&quot;,&quot;1029&quot;:&quot;Paracelis&quot;,&quot;1030&quot;:&quot;Sabangan&quot;,&quot;1031&quot;:&quot;Sadanga&quot;,&quot;1032&quot;:&quot;Sagada&quot;,&quot;1033&quot;:&quot;Tadian&quot;}'>Mountain Province</option>
+                                            <option value="51" data-cities='{&quot;1034&quot;:&quot;Bacolod City&quot;,&quot;1035&quot;:&quot;Bago City&quot;,&quot;1036&quot;:&quot;Cadiz City&quot;,&quot;1037&quot;:&quot;Escalante City&quot;,&quot;1038&quot;:&quot;Himamaylan City&quot;,&quot;1039&quot;:&quot;Kabankalan City&quot;,&quot;1040&quot;:&quot;La Carlota City&quot;,&quot;1041&quot;:&quot;Sagay City&quot;,&quot;1042&quot;:&quot;San Carlos City&quot;,&quot;1043&quot;:&quot;Silay City&quot;,&quot;1044&quot;:&quot;Sipalay City&quot;,&quot;1045&quot;:&quot;Talisay City&quot;,&quot;1046&quot;:&quot;Victorias City&quot;,&quot;1047&quot;:&quot;Binalbagan&quot;,&quot;1048&quot;:&quot;Calatrava&quot;,&quot;1049&quot;:&quot;Candoni&quot;,&quot;1050&quot;:&quot;Cauayan&quot;,&quot;1051&quot;:&quot;Enrique B. Magalona&quot;,&quot;1052&quot;:&quot;Hinigaran&quot;,&quot;1053&quot;:&quot;Hinoba-an&quot;,&quot;1054&quot;:&quot;Ilog&quot;,&quot;1055&quot;:&quot;Isabela&quot;,&quot;1056&quot;:&quot;La Castellana&quot;,&quot;1057&quot;:&quot;Manapla&quot;,&quot;1058&quot;:&quot;Moises Padilla&quot;,&quot;1059&quot;:&quot;Murcia&quot;,&quot;1060&quot;:&quot;Pontevedra&quot;,&quot;1061&quot;:&quot;Pulupandan&quot;,&quot;1062&quot;:&quot;Salvador Benedicto&quot;,&quot;1063&quot;:&quot;San Enrique&quot;,&quot;1064&quot;:&quot;Toboso&quot;,&quot;1065&quot;:&quot;Valladolid&quot;}'>Negros Occidental</option>
+                                            <option value="52" data-cities='{&quot;1066&quot;:&quot;Bais City&quot;,&quot;1067&quot;:&quot;Bayawan City&quot;,&quot;1068&quot;:&quot;Canlaon City&quot;,&quot;1069&quot;:&quot;Guihulngan City&quot;,&quot;1070&quot;:&quot;Dumaguete City&quot;,&quot;1071&quot;:&quot;Tanjay City&quot;,&quot;1072&quot;:&quot;Amlan&quot;,&quot;1073&quot;:&quot;Ayungon&quot;,&quot;1074&quot;:&quot;Bacong&quot;,&quot;1075&quot;:&quot;Basay&quot;,&quot;1076&quot;:&quot;Bindoy&quot;,&quot;1077&quot;:&quot;Dauin&quot;,&quot;1078&quot;:&quot;Jimalalud&quot;,&quot;1079&quot;:&quot;La Libertad&quot;,&quot;1080&quot;:&quot;Mabinay&quot;,&quot;1081&quot;:&quot;Manjuyod&quot;,&quot;1082&quot;:&quot;Pamplona&quot;,&quot;1083&quot;:&quot;San Jose&quot;,&quot;1084&quot;:&quot;Santa Catalina&quot;,&quot;1085&quot;:&quot;Siaton&quot;,&quot;1086&quot;:&quot;Sibulan&quot;,&quot;1087&quot;:&quot;Tayasan&quot;,&quot;1088&quot;:&quot;Valencia&quot;,&quot;1089&quot;:&quot;Vallehermoso&quot;,&quot;1090&quot;:&quot;Zamboanguita&quot;}'>Negros Oriental</option>
+                                            <option value="53" data-cities='{&quot;1091&quot;:&quot;Allen&quot;,&quot;1092&quot;:&quot;Biri&quot;,&quot;1093&quot;:&quot;Bobon&quot;,&quot;1094&quot;:&quot;Capul&quot;,&quot;1095&quot;:&quot;Catarman&quot;,&quot;1096&quot;:&quot;Catubig&quot;,&quot;1097&quot;:&quot;Gamay&quot;,&quot;1098&quot;:&quot;Laoang&quot;,&quot;1099&quot;:&quot;Lapinig&quot;,&quot;1100&quot;:&quot;Las Navas&quot;,&quot;1101&quot;:&quot;Lavezares&quot;,&quot;1102&quot;:&quot;Lope de Vega&quot;,&quot;1103&quot;:&quot;Mapanas&quot;,&quot;1104&quot;:&quot;Mondragon&quot;,&quot;1105&quot;:&quot;Palapag&quot;,&quot;1106&quot;:&quot;Pambujan&quot;,&quot;1107&quot;:&quot;Rosario&quot;,&quot;1108&quot;:&quot;San Antonio&quot;,&quot;1109&quot;:&quot;San Isidro&quot;,&quot;1110&quot;:&quot;San Jose&quot;,&quot;1111&quot;:&quot;San Roque&quot;,&quot;1112&quot;:&quot;San Vicente&quot;,&quot;1113&quot;:&quot;Silvino Lobos&quot;,&quot;1114&quot;:&quot;Victoria&quot;}'>Northern Samar</option>
+                                            <option value="54" data-cities='{&quot;1115&quot;:&quot;Cabanatuan City&quot;,&quot;1116&quot;:&quot;Gapan City&quot;,&quot;1117&quot;:&quot;Science City of Mu\u00f1oz&quot;,&quot;1118&quot;:&quot;Palayan City&quot;,&quot;1119&quot;:&quot;San Jose City&quot;,&quot;1120&quot;:&quot;Aliaga&quot;,&quot;1121&quot;:&quot;Bongabon&quot;,&quot;1122&quot;:&quot;Cabiao&quot;,&quot;1123&quot;:&quot;Carranglan&quot;,&quot;1124&quot;:&quot;Cuyapo&quot;,&quot;1125&quot;:&quot;Gabaldon&quot;,&quot;1126&quot;:&quot;General Mamerto Natividad&quot;,&quot;1127&quot;:&quot;General Tinio&quot;,&quot;1128&quot;:&quot;Guimba&quot;,&quot;1129&quot;:&quot;Jaen&quot;,&quot;1130&quot;:&quot;Laur&quot;,&quot;1131&quot;:&quot;Licab&quot;,&quot;1132&quot;:&quot;Llanera&quot;,&quot;1133&quot;:&quot;Lupao&quot;,&quot;1134&quot;:&quot;Nampicuan&quot;,&quot;1135&quot;:&quot;Pantabangan&quot;,&quot;1136&quot;:&quot;Pe\u00f1aranda&quot;,&quot;1137&quot;:&quot;Quezon&quot;,&quot;1138&quot;:&quot;Rizal&quot;,&quot;1139&quot;:&quot;San Antonio&quot;,&quot;1140&quot;:&quot;San Isidro&quot;,&quot;1141&quot;:&quot;San Leonardo&quot;,&quot;1142&quot;:&quot;Santa Rosa&quot;,&quot;1143&quot;:&quot;Santo Domingo&quot;,&quot;1144&quot;:&quot;Talavera&quot;,&quot;1145&quot;:&quot;Talugtug&quot;,&quot;1146&quot;:&quot;Zaragoza&quot;}'>Nueva Ecija</option>
+                                            <option value="55" data-cities='{&quot;1147&quot;:&quot;Alfonso Castaneda&quot;,&quot;1148&quot;:&quot;Ambaguio&quot;,&quot;1149&quot;:&quot;Aritao&quot;,&quot;1150&quot;:&quot;Bagabag&quot;,&quot;1151&quot;:&quot;Bambang&quot;,&quot;1152&quot;:&quot;Bayombong&quot;,&quot;1153&quot;:&quot;Diadi&quot;,&quot;1154&quot;:&quot;Dupax del Norte&quot;,&quot;1155&quot;:&quot;Dupax del Sur&quot;,&quot;1156&quot;:&quot;Kasibu&quot;,&quot;1157&quot;:&quot;Kayapa&quot;,&quot;1158&quot;:&quot;Quezon&quot;,&quot;1159&quot;:&quot;Santa Fe&quot;,&quot;1160&quot;:&quot;Solano&quot;,&quot;1161&quot;:&quot;Villaverde&quot;}'>Nueva Vizcaya</option>
+                                            <option value="56" data-cities='{&quot;1162&quot;:&quot;Abra de Ilog&quot;,&quot;1163&quot;:&quot;Calintaan&quot;,&quot;1164&quot;:&quot;Looc&quot;,&quot;1165&quot;:&quot;Lubang&quot;,&quot;1166&quot;:&quot;Magsaysay&quot;,&quot;1167&quot;:&quot;Mamburao&quot;,&quot;1168&quot;:&quot;Paluan&quot;,&quot;1169&quot;:&quot;Rizal&quot;,&quot;1170&quot;:&quot;Sablayan&quot;,&quot;1171&quot;:&quot;San Jose&quot;,&quot;1172&quot;:&quot;Santa Cruz&quot;}'>Occidental Mindoro</option>
+                                            <option value="57" data-cities='{&quot;1173&quot;:&quot;Calapan City&quot;,&quot;1174&quot;:&quot;Baco&quot;,&quot;1175&quot;:&quot;Bansud&quot;,&quot;1176&quot;:&quot;Bongabong&quot;,&quot;1177&quot;:&quot;Bulalacao&quot;,&quot;1178&quot;:&quot;Gloria&quot;,&quot;1179&quot;:&quot;Mansalay&quot;,&quot;1180&quot;:&quot;Naujan&quot;,&quot;1181&quot;:&quot;Pinamalayan&quot;,&quot;1182&quot;:&quot;Pola&quot;,&quot;1183&quot;:&quot;Puerto Galera&quot;,&quot;1184&quot;:&quot;Roxas&quot;,&quot;1185&quot;:&quot;San Teodoro&quot;,&quot;1186&quot;:&quot;Socorro&quot;,&quot;1187&quot;:&quot;Victoria&quot;}'>Oriental Mindoro</option>
+                                            <option value="58" data-cities='{&quot;1188&quot;:&quot;Puerto Princesa City&quot;,&quot;1189&quot;:&quot;Aborlan&quot;,&quot;1190&quot;:&quot;Agutaya&quot;,&quot;1191&quot;:&quot;Araceli&quot;,&quot;1192&quot;:&quot;Balabac&quot;,&quot;1193&quot;:&quot;Bataraza&quot;,&quot;1194&quot;:&quot;Brooke&#039;s Point&quot;,&quot;1195&quot;:&quot;Busuanga&quot;,&quot;1196&quot;:&quot;Cagayancillo&quot;,&quot;1197&quot;:&quot;Coron&quot;,&quot;1198&quot;:&quot;Culion&quot;,&quot;1199&quot;:&quot;Cuyo&quot;,&quot;1200&quot;:&quot;Dumaran&quot;,&quot;1201&quot;:&quot;El Nido&quot;,&quot;1202&quot;:&quot;Kalayaan&quot;,&quot;1203&quot;:&quot;Linapacan&quot;,&quot;1204&quot;:&quot;Magsaysay&quot;,&quot;1205&quot;:&quot;Narra&quot;,&quot;1206&quot;:&quot;Quezon&quot;,&quot;1207&quot;:&quot;Rizal&quot;,&quot;1208&quot;:&quot;Roxas&quot;,&quot;1209&quot;:&quot;San Vicente&quot;,&quot;1210&quot;:&quot;Sofronio Espa\u00f1ola&quot;,&quot;1211&quot;:&quot;Taytay&quot;}'>Palawan</option>
+                                            <option value="59" data-cities='{&quot;1212&quot;:&quot;Angeles City&quot;,&quot;1213&quot;:&quot;City of San Fernando&quot;,&quot;1214&quot;:&quot;Apalit&quot;,&quot;1215&quot;:&quot;Arayat&quot;,&quot;1216&quot;:&quot;Bacolor&quot;,&quot;1217&quot;:&quot;Candaba&quot;,&quot;1218&quot;:&quot;Floridablanca&quot;,&quot;1219&quot;:&quot;Guagua&quot;,&quot;1220&quot;:&quot;Lubao&quot;,&quot;1221&quot;:&quot;Mabalacat&quot;,&quot;1222&quot;:&quot;Macabebe&quot;,&quot;1223&quot;:&quot;Magalang&quot;,&quot;1224&quot;:&quot;Masantol&quot;,&quot;1225&quot;:&quot;Mexico&quot;,&quot;1226&quot;:&quot;Minalin&quot;,&quot;1227&quot;:&quot;Porac&quot;,&quot;1228&quot;:&quot;San Luis&quot;,&quot;1229&quot;:&quot;San Simon&quot;,&quot;1230&quot;:&quot;Santa Ana&quot;,&quot;1231&quot;:&quot;Santa Rita&quot;,&quot;1232&quot;:&quot;Santo Tomas&quot;,&quot;1233&quot;:&quot;Sasmuan&quot;}'>Pampanga</option>
+                                            <option value="60" data-cities='{&quot;1234&quot;:&quot;Alaminos City&quot;,&quot;1235&quot;:&quot;Dagupan City&quot;,&quot;1236&quot;:&quot;San Carlos City&quot;,&quot;1237&quot;:&quot;Urdaneta City&quot;,&quot;1238&quot;:&quot;Agno&quot;,&quot;1239&quot;:&quot;Aguilar&quot;,&quot;1240&quot;:&quot;Alcala&quot;,&quot;1241&quot;:&quot;Anda&quot;,&quot;1242&quot;:&quot;Asingan&quot;,&quot;1243&quot;:&quot;Balungao&quot;,&quot;1244&quot;:&quot;Bani&quot;,&quot;1245&quot;:&quot;Basista&quot;,&quot;1246&quot;:&quot;Bautista&quot;,&quot;1247&quot;:&quot;Bayambang&quot;,&quot;1248&quot;:&quot;Binalonan&quot;,&quot;1249&quot;:&quot;Binmaley&quot;,&quot;1250&quot;:&quot;Bolinao&quot;,&quot;1251&quot;:&quot;Bugallon&quot;,&quot;1252&quot;:&quot;Burgos&quot;,&quot;1253&quot;:&quot;Calasiao&quot;,&quot;1254&quot;:&quot;Dasol&quot;,&quot;1255&quot;:&quot;Infanta&quot;,&quot;1256&quot;:&quot;Labrador&quot;,&quot;1257&quot;:&quot;Laoac&quot;,&quot;1258&quot;:&quot;Lingayen&quot;,&quot;1259&quot;:&quot;Mabini&quot;,&quot;1260&quot;:&quot;Malasiqui&quot;,&quot;1261&quot;:&quot;Manaoag&quot;,&quot;1262&quot;:&quot;Mangaldan&quot;,&quot;1263&quot;:&quot;Mangatarem&quot;,&quot;1264&quot;:&quot;Mapandan&quot;,&quot;1265&quot;:&quot;Natividad&quot;,&quot;1266&quot;:&quot;Pozzorubio&quot;,&quot;1267&quot;:&quot;Rosales&quot;,&quot;1268&quot;:&quot;San Fabian&quot;,&quot;1269&quot;:&quot;San Jacinto&quot;,&quot;1270&quot;:&quot;San Manuel&quot;,&quot;1271&quot;:&quot;San Nicolas&quot;,&quot;1272&quot;:&quot;San Quintin&quot;,&quot;1273&quot;:&quot;Santa Barbara&quot;,&quot;1274&quot;:&quot;Santa Maria&quot;,&quot;1275&quot;:&quot;Santo Tomas&quot;,&quot;1276&quot;:&quot;Sison&quot;,&quot;1277&quot;:&quot;Sual&quot;,&quot;1278&quot;:&quot;Tayug&quot;,&quot;1279&quot;:&quot;Umingan&quot;,&quot;1280&quot;:&quot;Urbiztondo&quot;,&quot;1281&quot;:&quot;Villasis&quot;}'>Pangasinan</option>
+                                            <option value="61" data-cities='{&quot;1282&quot;:&quot;Lucena City&quot;,&quot;1283&quot;:&quot;Tayabas City&quot;,&quot;1284&quot;:&quot;Agdangan&quot;,&quot;1285&quot;:&quot;Alabat&quot;,&quot;1286&quot;:&quot;Atimonan&quot;,&quot;1287&quot;:&quot;Buenavista&quot;,&quot;1288&quot;:&quot;Burdeos&quot;,&quot;1289&quot;:&quot;Calauag&quot;,&quot;1290&quot;:&quot;Candelaria&quot;,&quot;1291&quot;:&quot;Catanauan&quot;,&quot;1292&quot;:&quot;Dolores&quot;,&quot;1293&quot;:&quot;General Luna&quot;,&quot;1294&quot;:&quot;General Nakar&quot;,&quot;1295&quot;:&quot;Guinayangan&quot;,&quot;1296&quot;:&quot;Gumaca&quot;,&quot;1297&quot;:&quot;Infanta&quot;,&quot;1298&quot;:&quot;Jomalig&quot;,&quot;1299&quot;:&quot;Lopez&quot;,&quot;1300&quot;:&quot;Lucban&quot;,&quot;1301&quot;:&quot;Macalelon&quot;,&quot;1302&quot;:&quot;Mauban&quot;,&quot;1303&quot;:&quot;Mulanay&quot;,&quot;1304&quot;:&quot;Padre Burgos&quot;,&quot;1305&quot;:&quot;Pagbilao&quot;,&quot;1306&quot;:&quot;Panukulan&quot;,&quot;1307&quot;:&quot;Patnanungan&quot;,&quot;1308&quot;:&quot;Perez&quot;,&quot;1309&quot;:&quot;Pitogo&quot;,&quot;1310&quot;:&quot;Plaridel&quot;,&quot;1311&quot;:&quot;Polillo&quot;,&quot;1312&quot;:&quot;Quezon&quot;,&quot;1313&quot;:&quot;Real&quot;,&quot;1314&quot;:&quot;Sampaloc&quot;,&quot;1315&quot;:&quot;San Andres&quot;,&quot;1316&quot;:&quot;San Antonio&quot;,&quot;1317&quot;:&quot;San Francisco&quot;,&quot;1318&quot;:&quot;San Narciso&quot;,&quot;1319&quot;:&quot;Sariaya&quot;,&quot;1320&quot;:&quot;Tagkawayan&quot;,&quot;1321&quot;:&quot;Tiaong&quot;,&quot;1322&quot;:&quot;Unisan&quot;}'>Quezon</option>
+                                            <option value="62" data-cities='{&quot;1323&quot;:&quot;Aglipay&quot;,&quot;1324&quot;:&quot;Cabarroguis&quot;,&quot;1325&quot;:&quot;Diffun&quot;,&quot;1326&quot;:&quot;Maddela&quot;,&quot;1327&quot;:&quot;Nagtipunan&quot;,&quot;1328&quot;:&quot;Saguday&quot;}'>Quirino</option>
+                                            <option value="63" data-cities='{&quot;1329&quot;:&quot;Antipolo City&quot;,&quot;1330&quot;:&quot;Angono&quot;,&quot;1331&quot;:&quot;Baras&quot;,&quot;1332&quot;:&quot;Binangonan&quot;,&quot;1333&quot;:&quot;Cainta&quot;,&quot;1334&quot;:&quot;Cardona&quot;,&quot;1335&quot;:&quot;Jalajala&quot;,&quot;1336&quot;:&quot;Morong&quot;,&quot;1337&quot;:&quot;Pililla&quot;,&quot;1338&quot;:&quot;Rodriguez&quot;,&quot;1339&quot;:&quot;San Mateo&quot;,&quot;1340&quot;:&quot;Tanay&quot;,&quot;1341&quot;:&quot;Taytay&quot;,&quot;1342&quot;:&quot;Teresa&quot;}'>Rizal</option>
+                                            <option value="64" data-cities='{&quot;1343&quot;:&quot;Alcantara&quot;,&quot;1344&quot;:&quot;Banton&quot;,&quot;1345&quot;:&quot;Cajidiocan&quot;,&quot;1346&quot;:&quot;Calatrava&quot;,&quot;1347&quot;:&quot;Concepcion&quot;,&quot;1348&quot;:&quot;Corcuera&quot;,&quot;1349&quot;:&quot;Ferrol&quot;,&quot;1350&quot;:&quot;Looc&quot;,&quot;1351&quot;:&quot;Magdiwang&quot;,&quot;1352&quot;:&quot;Odiongan&quot;,&quot;1353&quot;:&quot;Romblon&quot;,&quot;1354&quot;:&quot;San Agustin&quot;,&quot;1355&quot;:&quot;San Andres&quot;,&quot;1356&quot;:&quot;San Fernando&quot;,&quot;1357&quot;:&quot;San Jose&quot;,&quot;1358&quot;:&quot;Santa Fe&quot;,&quot;1359&quot;:&quot;Santa Maria&quot;}'>Romblon</option>
+                                            <option value="65" data-cities='{&quot;1360&quot;:&quot;Calbayog City&quot;,&quot;1361&quot;:&quot;Catbalogan City&quot;,&quot;1362&quot;:&quot;Almagro&quot;,&quot;1363&quot;:&quot;Basey&quot;,&quot;1364&quot;:&quot;Calbiga&quot;,&quot;1365&quot;:&quot;Daram&quot;,&quot;1366&quot;:&quot;Gandara&quot;,&quot;1367&quot;:&quot;Hinabangan&quot;,&quot;1368&quot;:&quot;Jiabong&quot;,&quot;1369&quot;:&quot;Marabut&quot;,&quot;1370&quot;:&quot;Matuguinao&quot;,&quot;1371&quot;:&quot;Motiong&quot;,&quot;1372&quot;:&quot;Pagsanghan&quot;,&quot;1373&quot;:&quot;Paranas&quot;,&quot;1374&quot;:&quot;Pinabacdao&quot;,&quot;1375&quot;:&quot;San Jorge&quot;,&quot;1376&quot;:&quot;San Jose De Buan&quot;,&quot;1377&quot;:&quot;San Sebastian&quot;,&quot;1378&quot;:&quot;Santa Margarita&quot;,&quot;1379&quot;:&quot;Santa Rita&quot;,&quot;1380&quot;:&quot;Santo Ni\u00f1o&quot;,&quot;1381&quot;:&quot;Tagapul-an&quot;,&quot;1382&quot;:&quot;Talalora&quot;,&quot;1383&quot;:&quot;Tarangnan&quot;,&quot;1384&quot;:&quot;Villareal&quot;,&quot;1385&quot;:&quot;Zumarraga&quot;}'>Samar</option>
+                                            <option value="66" data-cities='{&quot;1386&quot;:&quot;Alabel&quot;,&quot;1387&quot;:&quot;Glan&quot;,&quot;1388&quot;:&quot;Kiamba&quot;,&quot;1389&quot;:&quot;Maasim&quot;,&quot;1390&quot;:&quot;Maitum&quot;,&quot;1391&quot;:&quot;Malapatan&quot;,&quot;1392&quot;:&quot;Malungon&quot;}'>Sarangani</option>
+                                            <option value="67" data-cities='{&quot;1393&quot;:&quot;Enrique Villanueva&quot;,&quot;1394&quot;:&quot;Larena&quot;,&quot;1395&quot;:&quot;Lazi&quot;,&quot;1396&quot;:&quot;Maria&quot;,&quot;1397&quot;:&quot;San Juan&quot;,&quot;1398&quot;:&quot;Siquijor&quot;}'>Siquijor</option>
+                                            <option value="68" data-cities='{&quot;1399&quot;:&quot;Sorsogon City&quot;,&quot;1400&quot;:&quot;Barcelona&quot;,&quot;1401&quot;:&quot;Bulan&quot;,&quot;1402&quot;:&quot;Bulusan&quot;,&quot;1403&quot;:&quot;Casiguran&quot;,&quot;1404&quot;:&quot;Castilla&quot;,&quot;1405&quot;:&quot;Donsol&quot;,&quot;1406&quot;:&quot;Gubat&quot;,&quot;1407&quot;:&quot;Irosin&quot;,&quot;1408&quot;:&quot;Juban&quot;,&quot;1409&quot;:&quot;Magallanes&quot;,&quot;1410&quot;:&quot;Matnog&quot;,&quot;1411&quot;:&quot;Pilar&quot;,&quot;1412&quot;:&quot;Prieto Diaz&quot;,&quot;1413&quot;:&quot;Santa Magdalena&quot;}'>Sorsogon</option>
+                                            <option value="69" data-cities='{&quot;1414&quot;:&quot;General Santos City&quot;,&quot;1415&quot;:&quot;Koronadal City&quot;,&quot;1416&quot;:&quot;Banga&quot;,&quot;1417&quot;:&quot;Lake Sebu&quot;,&quot;1418&quot;:&quot;Norala&quot;,&quot;1419&quot;:&quot;Polomolok&quot;,&quot;1420&quot;:&quot;Santo Ni\u00f1o&quot;,&quot;1421&quot;:&quot;Surallah&quot;,&quot;1422&quot;:&quot;T&#039;boli&quot;,&quot;1423&quot;:&quot;Tampakan&quot;,&quot;1424&quot;:&quot;Tantangan&quot;,&quot;1425&quot;:&quot;Tupi&quot;}'>South Cotabato</option>
+                                            <option value="70" data-cities='{&quot;1426&quot;:&quot;Maasin City&quot;,&quot;1427&quot;:&quot;Anahawan&quot;,&quot;1428&quot;:&quot;Bontoc&quot;,&quot;1429&quot;:&quot;Hinunangan&quot;,&quot;1430&quot;:&quot;Hinundayan&quot;,&quot;1431&quot;:&quot;Libagon&quot;,&quot;1432&quot;:&quot;Liloan&quot;,&quot;1433&quot;:&quot;Limasawa&quot;,&quot;1434&quot;:&quot;Macrohon&quot;,&quot;1435&quot;:&quot;Malitbog&quot;,&quot;1436&quot;:&quot;Padre Burgos&quot;,&quot;1437&quot;:&quot;Pintuyan&quot;,&quot;1438&quot;:&quot;Saint Bernard&quot;,&quot;1439&quot;:&quot;San Francisco&quot;,&quot;1440&quot;:&quot;San Juan&quot;,&quot;1441&quot;:&quot;San Ricardo&quot;,&quot;1442&quot;:&quot;Silago&quot;,&quot;1443&quot;:&quot;Sogod&quot;,&quot;1444&quot;:&quot;Tomas Oppus&quot;}'>Southern Leyte</option>
+                                            <option value="71" data-cities='{&quot;1445&quot;:&quot;Tacurong City&quot;,&quot;1446&quot;:&quot;Bagumbayan&quot;,&quot;1447&quot;:&quot;Columbio&quot;,&quot;1448&quot;:&quot;Esperanza&quot;,&quot;1449&quot;:&quot;Isulan&quot;,&quot;1450&quot;:&quot;Kalamansig&quot;,&quot;1451&quot;:&quot;Lambayong&quot;,&quot;1452&quot;:&quot;Lebak&quot;,&quot;1453&quot;:&quot;Lutayan&quot;,&quot;1454&quot;:&quot;Palimbang&quot;,&quot;1455&quot;:&quot;President Quirino&quot;,&quot;1456&quot;:&quot;Senator Ninoy Aquino&quot;}'>Sultan Kudarat</option>
+                                            <option value="72" data-cities='{&quot;1457&quot;:&quot;Banguingui&quot;,&quot;1458&quot;:&quot;Hadji Panglima Tahil&quot;,&quot;1459&quot;:&quot;Indanan&quot;,&quot;1460&quot;:&quot;Jolo&quot;,&quot;1461&quot;:&quot;Kalingalan Caluang&quot;,&quot;1462&quot;:&quot;Lugus&quot;,&quot;1463&quot;:&quot;Luuk&quot;,&quot;1464&quot;:&quot;Maimbung&quot;,&quot;1465&quot;:&quot;Old Panamao&quot;,&quot;1466&quot;:&quot;Omar&quot;,&quot;1467&quot;:&quot;Pandami&quot;,&quot;1468&quot;:&quot;Panglima Estino&quot;,&quot;1469&quot;:&quot;Pangutaran&quot;,&quot;1470&quot;:&quot;Parang&quot;,&quot;1471&quot;:&quot;Pata&quot;,&quot;1472&quot;:&quot;Patikul&quot;,&quot;1473&quot;:&quot;Siasi&quot;,&quot;1474&quot;:&quot;Talipao&quot;,&quot;1475&quot;:&quot;Tapul&quot;}'>Sulu</option>
+                                            <option value="73" data-cities='{&quot;1476&quot;:&quot;Surigao City&quot;,&quot;1477&quot;:&quot;Alegria&quot;,&quot;1478&quot;:&quot;Bacuag&quot;,&quot;1479&quot;:&quot;Basilisa&quot;,&quot;1480&quot;:&quot;Burgos&quot;,&quot;1481&quot;:&quot;Cagdianao&quot;,&quot;1482&quot;:&quot;Claver&quot;,&quot;1483&quot;:&quot;Dapa&quot;,&quot;1484&quot;:&quot;Del Carmen&quot;,&quot;1485&quot;:&quot;Dinagat&quot;,&quot;1486&quot;:&quot;General Luna&quot;,&quot;1487&quot;:&quot;Gigaquit&quot;,&quot;1488&quot;:&quot;Libjo&quot;,&quot;1489&quot;:&quot;Loreto&quot;,&quot;1490&quot;:&quot;Mainit&quot;,&quot;1491&quot;:&quot;Malimono&quot;,&quot;1492&quot;:&quot;Pilar&quot;,&quot;1493&quot;:&quot;Placer&quot;,&quot;1494&quot;:&quot;San Benito&quot;,&quot;1495&quot;:&quot;San Francisco&quot;,&quot;1496&quot;:&quot;San Isidro&quot;,&quot;1497&quot;:&quot;San Jose&quot;,&quot;1498&quot;:&quot;Santa Monica&quot;,&quot;1499&quot;:&quot;Sison&quot;,&quot;1500&quot;:&quot;Socorro&quot;,&quot;1501&quot;:&quot;Tagana-an&quot;,&quot;1502&quot;:&quot;Tubajon&quot;,&quot;1503&quot;:&quot;Tubod&quot;}'>Surigao del Norte</option>
+                                            <option value="74" data-cities='{&quot;1504&quot;:&quot;Bislig City&quot;,&quot;1505&quot;:&quot;Tandag City&quot;,&quot;1506&quot;:&quot;Barobo&quot;,&quot;1507&quot;:&quot;Bayabas&quot;,&quot;1508&quot;:&quot;Cagwait&quot;,&quot;1509&quot;:&quot;Cantilan&quot;,&quot;1510&quot;:&quot;Carmen&quot;,&quot;1511&quot;:&quot;Carrascal&quot;,&quot;1512&quot;:&quot;Cortes&quot;,&quot;1513&quot;:&quot;Hinatuan&quot;,&quot;1514&quot;:&quot;Lanuza&quot;,&quot;1515&quot;:&quot;Lianga&quot;,&quot;1516&quot;:&quot;Lingig&quot;,&quot;1517&quot;:&quot;Madrid&quot;,&quot;1518&quot;:&quot;Marihatag&quot;,&quot;1519&quot;:&quot;San Agustin&quot;,&quot;1520&quot;:&quot;San Miguel&quot;,&quot;1521&quot;:&quot;Tagbina&quot;,&quot;1522&quot;:&quot;Tago&quot;}'>Surigao del Sur</option>
+                                            <option value="75" data-cities='{&quot;1523&quot;:&quot;Tarlac City&quot;,&quot;1524&quot;:&quot;Anao&quot;,&quot;1525&quot;:&quot;Bamban&quot;,&quot;1526&quot;:&quot;Camiling&quot;,&quot;1527&quot;:&quot;Capas&quot;,&quot;1528&quot;:&quot;Concepcion&quot;,&quot;1529&quot;:&quot;Gerona&quot;,&quot;1530&quot;:&quot;La Paz&quot;,&quot;1531&quot;:&quot;Mayantoc&quot;,&quot;1532&quot;:&quot;Moncada&quot;,&quot;1533&quot;:&quot;Paniqui&quot;,&quot;1534&quot;:&quot;Pura&quot;,&quot;1535&quot;:&quot;Ramos&quot;,&quot;1536&quot;:&quot;San Clemente&quot;,&quot;1537&quot;:&quot;San Jose&quot;,&quot;1538&quot;:&quot;San Manuel&quot;,&quot;1539&quot;:&quot;Santa Ignacia&quot;,&quot;1540&quot;:&quot;Victoria&quot;}'>Tarlac</option>
+                                            <option value="76" data-cities='{&quot;1541&quot;:&quot;Bongao&quot;,&quot;1542&quot;:&quot;Languyan&quot;,&quot;1543&quot;:&quot;Mapun&quot;,&quot;1544&quot;:&quot;Panglima Sugala&quot;,&quot;1545&quot;:&quot;Sapa-Sapa&quot;,&quot;1546&quot;:&quot;Sibutu&quot;,&quot;1547&quot;:&quot;Simunul&quot;,&quot;1548&quot;:&quot;Sitangkai&quot;,&quot;1549&quot;:&quot;South Ubian&quot;,&quot;1550&quot;:&quot;Tandubas&quot;,&quot;1551&quot;:&quot;Turtle Islands&quot;}'>Tawi-Tawi</option>
+                                            <option value="77" data-cities='{&quot;1552&quot;:&quot;Olongapo City&quot;,&quot;1553&quot;:&quot;Botolan&quot;,&quot;1554&quot;:&quot;Cabangan&quot;,&quot;1555&quot;:&quot;Candelaria&quot;,&quot;1556&quot;:&quot;Castillejos&quot;,&quot;1557&quot;:&quot;Iba&quot;,&quot;1558&quot;:&quot;Masinloc&quot;,&quot;1559&quot;:&quot;Palauig&quot;,&quot;1560&quot;:&quot;San Antonio&quot;,&quot;1561&quot;:&quot;San Felipe&quot;,&quot;1562&quot;:&quot;San Marcelino&quot;,&quot;1563&quot;:&quot;San Narciso&quot;,&quot;1564&quot;:&quot;Santa Cruz&quot;,&quot;1565&quot;:&quot;Subic&quot;}'>Zambales</option>
+                                            <option value="78" data-cities='{&quot;1566&quot;:&quot;Dapitan City&quot;,&quot;1567&quot;:&quot;Dipolog City&quot;,&quot;1568&quot;:&quot;Bacungan&quot;,&quot;1569&quot;:&quot;Baliguian&quot;,&quot;1570&quot;:&quot;Godod&quot;,&quot;1571&quot;:&quot;Gutalac&quot;,&quot;1572&quot;:&quot;Jose Dalman&quot;,&quot;1573&quot;:&quot;Kalawit&quot;,&quot;1574&quot;:&quot;Katipunan&quot;,&quot;1575&quot;:&quot;La Libertad&quot;,&quot;1576&quot;:&quot;Labason&quot;,&quot;1577&quot;:&quot;Liloy&quot;,&quot;1578&quot;:&quot;Manukan&quot;,&quot;1579&quot;:&quot;Mutia&quot;,&quot;1580&quot;:&quot;Pi\u00f1an&quot;,&quot;1581&quot;:&quot;Polanco&quot;,&quot;1582&quot;:&quot;President Manuel A. Roxas&quot;,&quot;1583&quot;:&quot;Rizal&quot;,&quot;1584&quot;:&quot;Salug&quot;,&quot;1585&quot;:&quot;Sergio Osme\u00f1a Sr.&quot;,&quot;1586&quot;:&quot;Siayan&quot;,&quot;1587&quot;:&quot;Sibuco&quot;,&quot;1588&quot;:&quot;Sibutad&quot;,&quot;1589&quot;:&quot;Sindangan&quot;,&quot;1590&quot;:&quot;Siocon&quot;,&quot;1591&quot;:&quot;Sirawai&quot;,&quot;1592&quot;:&quot;Tampilisan&quot;}'>Zamboanga del Norte</option>
+                                            <option value="79" data-cities='{&quot;1593&quot;:&quot;Pagadian City&quot;,&quot;1594&quot;:&quot;Zamboanga City&quot;,&quot;1595&quot;:&quot;Aurora&quot;,&quot;1596&quot;:&quot;Bayog&quot;,&quot;1597&quot;:&quot;Dimataling&quot;,&quot;1598&quot;:&quot;Dinas&quot;,&quot;1599&quot;:&quot;Dumalinao&quot;,&quot;1600&quot;:&quot;Dumingag&quot;,&quot;1601&quot;:&quot;Guipos&quot;,&quot;1602&quot;:&quot;Josefina&quot;,&quot;1603&quot;:&quot;Kumalarang&quot;,&quot;1604&quot;:&quot;Labangan&quot;,&quot;1605&quot;:&quot;Lakewood&quot;,&quot;1606&quot;:&quot;Lapuyan&quot;,&quot;1607&quot;:&quot;Mahayag&quot;,&quot;1608&quot;:&quot;Margosatubig&quot;,&quot;1609&quot;:&quot;Midsalip&quot;,&quot;1610&quot;:&quot;Molave&quot;,&quot;1611&quot;:&quot;Pitogo&quot;,&quot;1612&quot;:&quot;Ramon Magsaysay&quot;,&quot;1613&quot;:&quot;San Miguel&quot;,&quot;1614&quot;:&quot;San Pablo&quot;,&quot;1615&quot;:&quot;Sominot&quot;,&quot;1616&quot;:&quot;Tabina&quot;,&quot;1617&quot;:&quot;Tambulig&quot;,&quot;1618&quot;:&quot;Tigbao&quot;,&quot;1619&quot;:&quot;Tukuran&quot;,&quot;1620&quot;:&quot;Vincenzo A. Sagun&quot;}'>Zamboanga del Sur</option>
+                                            <option value="80" data-cities='{&quot;1621&quot;:&quot;Alicia&quot;,&quot;1622&quot;:&quot;Buug&quot;,&quot;1623&quot;:&quot;Diplahan&quot;,&quot;1624&quot;:&quot;Imelda&quot;,&quot;1625&quot;:&quot;Ipil&quot;,&quot;1626&quot;:&quot;Kabasalan&quot;,&quot;1627&quot;:&quot;Mabuhay&quot;,&quot;1628&quot;:&quot;Malangas&quot;,&quot;1629&quot;:&quot;Naga&quot;,&quot;1630&quot;:&quot;Olutanga&quot;,&quot;1631&quot;:&quot;Payao&quot;,&quot;1632&quot;:&quot;Roseller Lim&quot;,&quot;1633&quot;:&quot;Siay&quot;,&quot;1634&quot;:&quot;Talusan&quot;,&quot;1635&quot;:&quot;Titay&quot;,&quot;1636&quot;:&quot;Tungawan&quot;}'>Zamboanga Sibugay</option>
+                                        </select>
+                                    </div>
+                                    <p class="error-message">This field is requried</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-12">
+                                <!-- OFFICE CITY -->
+                                <div class="input-wrap">
+                                    <label for="officeCity">City </label>
+                                    <div class="custom-select empty bdr-gray">
+                                        <label for="officeCity"></label>
+                                        <select id="officeCity" name="officeCity">
+                                            <option value="" selected disabled>Select your City</option>
+                                        </select>
+                                    </div>
+                                    <p class="error-message">This field is requried</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-12 find-branch">
+                                <!-- OFFICE BRANCH -->
+                                <div class="input-wrap">
+                                    <label for="officeBranch">Branch Name </label>
+                                    <div>
+                                        <button>
+                                            <i class="icon-dmci icon-magnifyingGlass"></i>
+                                        </button>
+                                        <input type="text" name="officeBranch" id="officeBranch" class="bdr-gray" placeholder="Search branch here" value="">
+                                    </div>
+                                    <p class="error-message">This field is requried</p>
+                                </div>
+                                <button type="submit" class="button--primary success">Search Now</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="branch-results">
+                        <div class="details">
+                            <h3 class="c--gray">Branch List</h3>
+                            <ul class="branch-list">
+                                <li id="no-results" style="display:none;">
+                                    <p class="no-results p-t-0">No Data Found
+                                </p>
+                                </li>
+                                <template id="branchListTemplate">
+                                    <li>
+                                        <h4>Property Name</h4>
+                                        <p>123 Address</p>
+                                        <a href="#" target="_blank">View Map</a>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                        <input type="hidden" id="branch-items" value="{&quot;count&quot;:[&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;],&quot;name&quot;:[&quot;DMCI Homes Corporate Center&quot;,&quot;DMCI Holdings, Inc.&quot;,&quot;DMCI Homes Exclusive Sales Office and Showroom&quot;,&quot;The Calinea Tower&quot;,&quot;The Celandine Showroom&quot;,&quot;One Delta Terraces Showroom&quot;,&quot;The Oriana Showroom&quot;,&quot;Sage Residences Showroom&quot;,&quot;Allegra Garden Place Showroom&quot;,&quot;The Valeron Tower Showroom&quot;,&quot;Satori Residences Showroom&quot;,&quot;Alder Residences Showroom&quot;,&quot;Anissa Heights Showroom&quot;,&quot;The Atherton Showroom&quot;,&quot;Sonora Garden Residences Showroom&quot;,&quot;Moncello Crest Information Center&quot;,&quot;Solmera Coast Model Unit&quot;,&quot;Kalea Heights Showroom&quot;,&quot;Verdon Parc Showroom&quot;],&quot;address&quot;:[&quot;1321 Apolinario Street, Bangkal, Makati City&quot;,&quot;1200 Chino Roces Ave, Makati, Metro Manila&quot;,&quot;1321 Apolinario Street, Bangkal, Makati City, 09:30 AM - 7:30 PM (Monday to Sunday)&quot;,&quot;M.H. Del Pilar St, East Grace Park, Caloocan City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Unit 1204 The Celandine, A. Bonifacio Ave., Quezon City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Unit 914 The Crestmont, Panay Ave., South Triangle, Quezon City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Unit 210 Infina Towers (North Tower), Aurora Blvd. Brgy. Marilag, Project 4, Quezon City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Unit 211 Kai Garden Residences (Sugi Building), M. Vicente St. Mandaluyong City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Unit 217 Allegra Garden Place (Amina Building), Pasig Blvd, Pasig City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;100 Eulogio Rodriguez Jr. Ave, Pasig City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Unit 207 Satori Residences (Hacana Building) F. Pasco Ave. Brgy. Santolan, Pasig City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Unit 206 Alder Residences (Andea Building), Acacia Estates, Taguig City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;La Verti Residences, Taft Ave., Pasay City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Calathea Place, Dr. A. Santos Ave., Brgy. San Antonio Para\u00f1aque City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Verandah, Robinsons Las Pi\u00f1as, Alabang- Zapote Road, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Moncello Crest, Marcos Highway, Tuba, Benguet, 8:00AM - 5:00 PM(Monday-Sunday)&quot;,&quot;Solmera Coast, San Juan-Laiya Road, San Juan, Batangas, 8:00AM - 5:00 PM(Monday-Sunday)&quot;,&quot;Unit B04, The Esplanade, Salinas Drive, Lahug, Cebu City, 10:00 AM - 7:00 PM (Monday-Sunday)&quot;,&quot;Unit 211 Verdon Parc (Maurin Building), Ecoland Drive corner Peacock St., Davao City, 9am-6pm(Monday-Saturday), 8am-5pm(Sunday)&quot;],&quot;region&quot;:[[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;47&quot;],[&quot;13&quot;],[&quot;12&quot;],[&quot;25&quot;],[&quot;28&quot;]],&quot;city&quot;:[[&quot;966&quot;],[&quot;966&quot;],[&quot;966&quot;],[&quot;964&quot;],[&quot;976&quot;],[&quot;275&quot;],[&quot;976&quot;],[&quot;968&quot;],[&quot;975&quot;],[&quot;975&quot;],[&quot;975&quot;],[&quot;978&quot;],[&quot;974&quot;],[&quot;973&quot;],[&quot;965&quot;],[&quot;199&quot;],[&quot;757&quot;],[&quot;438&quot;],[&quot;530&quot;]],&quot;latitude&quot;:[&quot;14.54296680692845&quot;,&quot;14.55162206608208&quot;,&quot;14.54296680692845&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],&quot;longitude&quot;:[&quot;121.01312196686511&quot;,&quot;121.01538799886892&quot;,&quot;121.01312196686511&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],&quot;map_url&quot;:[&quot;https:\/\/maps.app.goo.gl\/fvCoTh2nvYzHUcwc7&quot;,&quot;https:\/\/maps.app.goo.gl\/aFGmeXFSDjnpTawM6&quot;,&quot;https:\/\/maps.app.goo.gl\/fvCoTh2nvYzHUcwc7&quot;,&quot;https:\/\/maps.app.goo.gl\/e8QyFn2h3QQvx2yr8&quot;,&quot;https:\/\/maps.app.goo.gl\/mDfNyVuLKo6LLyEV9?g_st=ic&quot;,&quot;https:\/\/maps.app.goo.gl\/s3KsRk5ctaX9RrQXA&quot;,&quot;https:\/\/maps.app.goo.gl\/yEEk64HyJZaNAfcW6?g_st=ic&quot;,&quot;https:\/\/maps.app.goo.gl\/oc89feHu7mRAPu3v5?g_st=ic&quot;,&quot;https:\/\/maps.app.goo.gl\/bBrUFjZ3x3LSGJAe9&quot;,&quot;https:\/\/maps.app.goo.gl\/XBMqoa6xAy2ZXvvR9&quot;,&quot;https:\/\/maps.app.goo.gl\/qbAG9SWWU3tiDNr46?g_st=ic&quot;,&quot;https:\/\/maps.app.goo.gl\/VpXf5xaDYbdkqG2j7&quot;,&quot;https:\/\/maps.app.goo.gl\/tdCwZtZj5ok7w6gE9?g_st=ic&quot;,&quot;https:\/\/maps.app.goo.gl\/WzNEfYXpamyxmwzQ6?g_st=ic&quot;,&quot;https:\/\/maps.app.goo.gl\/uTKeqGmgxmy5Uco39?g_st=ic&quot;,&quot;https:\/\/maps.app.goo.gl\/FrnkohQfGGtRC8e88&quot;,&quot;https:\/\/maps.app.goo.gl\/27rQVpnYDCvbaEUy6&quot;,&quot;https:\/\/maps.app.goo.gl\/cgMC9RtUbgeKKta86&quot;,&quot;https:\/\/maps.app.goo.gl\/XqsGJxcsNo9CNrPG6?g_st=ic&quot;]}">
+                        <div id="branch-map" style="width:100%; height: 620px;"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <!-- CONTACT -->
+                <ul class="cardlist-03">
+                    <li>
+                        <div class="footer-contact">
+                            <div class="info">
+                                <p class="h4-text">Phone</p>
+                                <p>
+                                    Our phone lines are <span class="nooneword">available every.</span>
+                                </p>
+                                <p>
+                                    <strong>Monday</strong>
+                                    to <strong>Friday</strong>
+                                    from <strong>8AM</strong>
+                                    <span class="nooneword">
+                                        to <strong>5PM</strong>
+                                        .
+                                    </span>
+                                </p>
+                            </div>
+                            <i class="icon-dmci icon-phone"></i>
+                        </div>
+                        <div class="footer-contact">
+                            <div class="info">
+                                <p>
+                                    Sales: <a href="tel:+63 (2) 53248888" rel="noopener noreferrer" target="_blank">+63 (2) 53248888</a>
+                                </p>
+                                <p>
+                                    Leasing: <a href="tel:+63 (2) 84037368" rel="noopener noreferrer" target="_blank">+63 (2) 84037368</a>
+                                </p>
+                                <p>
+                                    Employment Inquiry: <a href="tel:+63 (2) 85557777" rel="noopener noreferrer" target="_blank">+63 (2) 85557777</a>
+                                </p>
+                                <p>
+                                    Customer Care (SMART): <a href="tel:(+63) 918 9183456" rel="noopener noreferrer" target="_blank">(+63) 918 9183456</a>
+                                </p>
+                                <p>
+                                    Customer Care (GLOBE): <a href="tel:(+63) 918 9183456" rel="noopener noreferrer" target="_blank">(+63) 917 8115268</a>
+                                </p>
+                                <p>
+                                    Other Inquiries: (<a href="tel:+63 (2) 85557777" rel="noopener noreferrer" target="_blank">+63) (2) 85557777</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="footer-contact">
+                            <div class="info">
+                                <p class="h4-text">Email</p>
+                                <p>
+                                    You may reach us by email for all manner of information. Send an enquiry to the following designated 
+                                    <span class="nooneword">
+                                        <span class="nooneword"></span>
+                                        email list.
+                                    </span>
+</span></p></div><i class="icon-dmci icon-mail"></i>
+</div>
+<div class="footer-contact">
+    <div class="info">
+        <p>
+            Sales: <a href="mailto:sales@dmcihomes.com">sales@dmcihomes.com</a>
+        </p>
+        <p>
+            Leasing: <a href="mailto:leasing@dmcihomes.com">leasing@dmcihomes.com</a>
+        </p>
+        <p>
+            Customer Care: <a href="mailto:customercare@dmcihomes.com">customercare@dmcihomes.com</a>
+        </p>
+        <p>
+            Employment Inquiry: <a href="mailto:careers@dmcihomes.com">careers@dmcihomes.com</a>
+        </p>
+    </div>
+</div>
+</li>
+<li>
+    <div class="footer-contact">
+        <div class="info">
+            <p class="h4-text">Set an Appointment</p>
+            <p>
+                Avoid the long queues, book your next visit to our customer helpdesk at <a href="https://apps.dmcihomes.com/IqsOnlineAppointment/BookingSchedule" rel="noopener noreferrer" target="_blank">book.dmcihomes.com</a>
+            </p>
+            <a href="https://apps.dmcihomes.com/IqsOnlineAppointment/BookingSchedule" rel="noopener noreferrer" target="_blank" class="button--primary light-blue">Book an Appointment Now</a>
+        </div>
+        <i class="icon-dmci icon-calendar"></i>
+    </div>
+</li>
+</ul>
+<!-- ADDRESS & SOCMED -->
+<ul class="cardlist-03">
+    <li>
+        <div class="footer-contact">
+            <div class="info">
+                <p class="h4-text">Head Office Address</p>
+                <p>DMCI Homes Corporate Center, 1321 A. Apolinario St.,  Bangkal, Makati City, 1233 Metro Manila, Philippines</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="footer-contact">
+            <div class="info">
+                <p class="h4-text">Find the nearest DMCI Homes Office</p>
+                <p>We're expanding our presence</p>
+                <a href="/contact-us#branch-filter-form" class="locate-office">
+                    Locate our Offices <i class="icon-dmci icon-right-arrow-bold"></i>
+                </a>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="footer-contact">
+            <div class="info">
+                <p class="h4-text">Social Media</p>
+                <ul class="footer-socmed">
+                    <li>
+                        <a href="https://www.facebook.com/dmcihomesofficial" target="_blank" aria-label="Facebook URL">
+                            <i class="icon-dmci icon-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/dmcihomes" target="_blank" aria-label="X URL">
+                            <i class="icon-dmci icon-x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/dmcihomesofficial/" target="_blank" aria-label="Instagram URL">
+                            <i class="icon-dmci icon-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dmcihomes.com/uploads/optimized/small-qr-qq-67a0520cac721.webp" data-fancybox aria-label="Tencent URL">
+                            <i class="icon-dmci icon-tencent"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/dmcihomesofficial" target="_blank" aria-label="Youtube URL">
+                            <i class="icon-dmci icon-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dmcihomes.com/uploads/optimized/qr-wechat-large-67a055f8aeda1.webp" data-fancybox aria-label="WeChat URL">
+                            <i class="icon-dmci icon-weChat"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </li>
+</ul>
+<!-- MENU-->
+<div class="footer-menu">
+    <ul>
+        <li>
+            <a href="https://www.dmcihomes.com/about-us">About DMCI</a>
+        </li>
+        <li>
+            <a target="_blank" href="https://leasing.dmcihomes.com/">Leasing</a>
+        </li>
+        <li>
+            <a href="https://www.dmcihomes.com/whats-new">What’s New</a>
+        </li>
+        <li>
+            <a href="https://www.dmcihomes.com/privacy-policy">Terms</a>
+        </li>
+        <li>
+            <a href="https://www.dmcihomes.com/privacy-policy">Privacy</a>
+        </li>
+        <li>
+            <a target="_blank" href="https://communities.dmcihomes.com/">Community</a>
+        </li>
+        <li>
+            <a href="https://www.dmcihomes.com/properties">Properties</a>
+        </li>
+        <li>
+            <a href="https://www.dmcihomes.com/contact-us">Customer Care</a>
+        </li>
+        <li>
+            <a href="https://www.dmcihomes.com/sellers">Sellers</a>
+        </li>
+        <li>
+            <a href="https://www.dmcihomes.com/careers">Careers</a>
+        </li>
+        <li>
+            <a href="https://www.dmcihomes.com/guides">Guides</a>
+        </li>
+    </ul>
+</div>
+<!-- COPYRIGHT -->
+<div class="footer-copyright">
+    <p>DMCI Homes Inc © 2025</p>
+    <p>All Rights Reserved</p>
+</div>
+</div></footer>
+<div class="site-settings">
+    <!-- HEADER -->
+    <div class="sss-header">
+        <p class="h4-text c--blue">Personalize your experience</p>
+    </div>
+    <!-- FORM -->
+    <form class="sss-form" id="personalize-experience-form">
+        <!-- CURRENCY -->
+        <div class="input-wrap">
+            <label for="pop-up-currency-select">PREFERRED CURRENCY</label>
+            <div class="custom-select empty bdr-gray">
+                <label for="pop-up-currency-select"></label>
+                <select name="" id="pop-up-currency-select">
+                    <option value="PHP">PHP - Philippine Peso</option>
+                    <option value="USD">USD - US Dollar</option>
+                    <option value="CNY">CNY - Chinese Yuan</option>
+                    <option value="JPY">JPY - Japan Yen</option>
+                    <option value="AED">AED - UAE Dirham</option>
+                    <option value="GBP">GBP - UK Pound</option>
+                    <option value="EUR">EUR - European Euro</option>
+                    <option value="KRW">KRW - Korean Won</option>
+                </select>
+            </div>
+        </div>
+        <!-- MEASURE -->
+        <div class="input-wrap">
+            <label for="pop-up-measure-select">Preferred Measure</label>
+            <div class="custom-select empty bdr-gray">
+                <label for="pop-up-measure-select"></label>
+                <select name="" id="pop-up-measure-select">
+                    <option value="Metric" selected="">Metric</option>
+                    <option value="Imperial">Imperial</option>
+                </select>
+            </div>
+        </div>
+        <!-- LOCATION -->
+        <div class="input-wrap js-location-map">
+            <label for="pop-up-location-select">Preferred Nearby Location </label>
+            <input type="text" name="pop-up-location-select" id="pop-up-location-select" placeholder="Any Location" class="bdr-gray">
+        </div>
+        <p>
+            We use cookies to give you the best experience of our Website. You are consenting to our <a href="#">Privacy Policy</a>
+            and use of cookies if you continue to use the Website.
+        </p>
+        <div class="sss-ctas">
+            <button type="submit" class="button--primary button--md light-blue " id="updateSiteSettings">Start Browsing</button>
+            <button class="close close-options">skip this</button>
+        </div>
+    </form>
+</div>
+<div class="more-option">
+    <div class="container">
+        <!-- HEADER -->
+        <div class="mo-header">
+            <p class="h4-text">More Search Options</p>
+            <button class="close close-options" aria-label="Close More Option">
+                <i class="icon-dmci icon-close"></i>
+            </button>
+        </div>
+        <!-- TAB -->
+        <div class="tab mo-tab">
+            <!-- TAB MENU -->
+            <div class="tab-menu">
+                <p class="h3-text">I am looking to...</p>
+                <div class="input-wrap">
+                    <div class="custom-radio">
+                        <input type="radio" name="purpose" id="purposeBuy" value="Buy">
+                        <label for="purposeBuy">Buy</label>
+                        <input type="radio" name="purpose" id="purposeRent" value="Rent">
+                        <label for="purposeRent">Rent/Lease</label>
+                    </div>
+                </div>
+            </div>
+            <!-- BUY -->
+            <form action="/property-finder" method="get">
+                <div class="tab-content active" id="purposeBuyTab">
+                    <div class="row">
+                        <!-- PROPERTY TYPE-->
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="mo-field">
+                                <p class="h4-text">Property Type</p>
+                                <div class="input-wrap">
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="development_type[]" value="2" id="buyHighRise">
+                                        <label for="buyHighRise">High Rise Condominiums</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="development_type[]" id="buyMidRise" value="3">
+                                        <label for="buyMidRise">Mid Rise Condominiums</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="development_type[]" id="buySubdivisions" value="4">
+                                        <label for="buySubdivisions">Subdivisions</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="development_type[]" id="buyLeisureResidences" value="5">
+                                        <label for="buyLeisureResidences">Leisure Residences</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- UNIT TYPE -->
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="mo-field">
+                                <p class="h4-text">Unit Type</p>
+                                <div class="input-wrap">
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="unit_type[]" id="buyStudio" value="1">
+                                        <label for="buyStudio">Studio</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="unit_type[]" id="buy1Bedroom" value="2">
+                                        <label for="buy1Bedroom">1 Bedroom</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="unit_type[]" id="buy2Bedroom" value="3">
+                                        <label for="buy2Bedroom">2 Bedroom</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="unit_type[]" id="buy3Bedroom" value="4">
+                                        <label for="buy3Bedroom">3 Bedroom</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="unit_type[]" id="buy4Bedroom" value="5">
+                                        <label for="buy4Bedroom">4 Bedroom</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="unit_type[]" id="buyLoft" value="6">
+                                        <label for="buyLoft">Loft</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="unit_type[]" id="buyHouseLot" value="7">
+                                        <label for="buyHouseLot">House & Lot</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="unit_type[]" id="buyLot" value="8">
+                                        <label for="buyLot">Lot</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PRICE RANGE -->
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="mo-field">
+                                <p class="h4-text">Price Range</p>
+                                <div class="mo-select-pricerange">
+                                    <div class="input-wrap">
+                                        <label for="">Min Price</label>
+                                        <div class="custom-select empty select-bdr-gray">
+                                            <label for="minPriceSelect"></label>
+                                            <select id="minPriceSelect" name="min_price" class="buyMinPriceSelect" aria-label="Min Price"></select>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <label for="">Max Price</label>
+                                        <div class="custom-select empty select-bdr-gray">
+                                            <label for="maxPriceSelect"></label>
+                                            <select id="maxPriceSelect" name="max_price" class="buyMaxPriceSelect" aria-label="Max Price"></select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-wrap">
+                                    <div class="pricerange">
+                                        <!-- SLIDER -->
+                                        <div class="pricerange__slider buyRangeSlider"></div>
+                                        <!-- NUMBER LABELS -->
+                                        <div class="pricerange-labels">
+                                            <a href="#" class="pricerange-labels__link buyPriceLabel" data-pricerange="1">1M</a>
+                                            <a href="#" class="pricerange-labels__link buyPriceLabel" data-pricerange="3">3M</a>
+                                            <a href="#" class="pricerange-labels__link buyPriceLabel" data-pricerange="5">5M</a>
+                                            <a href="#" class="pricerange-labels__link buyPriceLabel" data-pricerange="7">7M</a>
+                                            <a href="#" class="pricerange-labels__link buyPriceLabel" data-pricerange="10">10M</a>
+                                            <a href="#" class="pricerange-labels__link buyPriceLabel" data-pricerange="15">15M</a>
+                                            <a href="#" class="pricerange-labels__link buyPriceLabel" data-pricerange="20">20M</a>
+                                        </div>
+                                        <input type="number" name="minPrice" class="buyMinPrice">
+                                        <input type="number" name="maxPrice" class="buyMaxPrice">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- LOCATION -->
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="mo-field">
+                                <p class="h4-text">Near This Location</p>
+                                <div class="input-wrap js-location-map">
+                                    <div class="custom-location">
+                                        <input type="text" name="location" id="locationBuy" placeholder="Location" class="locationSearchInput">
+                                        <label for="locationBuy">
+                                            <i class="icon-dmci icon-locationPin"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="lat" class="locationLat">
+                                <input type="hidden" name="lng" class="locationLong">
+                            </div>
+                        </div>
+                        <!-- DEVELOPMENT STATUS -->
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="mo-field">
+                                <p class="h4-text">Development Status</p>
+                                <div class="input-wrap">
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="development_status[]" id="dsNew" value="1">
+                                        <label for="dsNew">
+                                            <img src="/assets/images/page_template/status-new.png" alt="" width="20" height="20">
+                                            <span>New</span>
+                                        </label>
+                                    </div>
+                                    <div class="custom-checkbox long-checkbox">
+                                        <input type="checkbox" name="development_status[]" id="dsReadyForOccupancy" value="2">
+                                        <label for="dsReadyForOccupancy">
+                                            <img src="/assets/images/page_template/status-rfo.png" alt="" width="20" height="20">
+                                            <span>Ready for Occupancy</span>
+                                        </label>
+                                    </div>
+                                    <div class="custom-checkbox long-checkbox">
+                                        <input type="checkbox" name="development_status[]" id="dsUnderConstruction" value="3">
+                                        <label for="dsUnderConstruction">
+                                            <img src="/assets/images/page_template/status-building.png" alt="" width="20" height="20">
+                                            <span>Under Construction</span>
+                                        </label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="development_status[]" id="dsComingSoon" value="4">
+                                        <label for="dsComingSoon">
+                                            <img src="/assets/images/page_template/status-comingsoon.png" alt="" width="20" height="20">
+                                            <span>Coming Soon</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mo-ctas">
+                        <button class="button--secondary clear-option black-green">Select All</button>
+                        <button type="submit" class="button--primary success">Search </button>
+                    </div>
+                </div>
+            </form>
+            <!-- RENT -->
+            <div class="tab-content js-rent-form" id="purposeRentTab">
+                <div class="row">
+                    <!-- FINISH-->
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="mo-field">
+                            <p class="h4-text">Finish</p>
+                            <div class="input-wrap">
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rentFinish[]" id="rentBareUnit" value="BARE UNIT">
+                                    <label for="rentBareUnit">Bare Unit</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rentFinish[]" id="rentSemiFurnished" value="SEMI-FURNISHED">
+                                    <label for="rentSemiFurnished">Semi-Furnished</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rentFinish[]" id="rentFullFurnished" value="FULLY FURNISHED">
+                                    <label for="rentFullFurnished">Fully Furnished</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- UNIT TYPE -->
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="mo-field">
+                            <p class="h4-text">Unit Type</p>
+                            <div class="input-wrap">
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rent_unit_type[]" id="rentStudio" value="1">
+                                    <label for="rentStudio">Studio</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rent_unit_type[]" id="rent1Bedroom" value="2">
+                                    <label for="rent1Bedroom">1 Bedroom</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rent_unit_type[]" id="rent2Bedroom" value="3">
+                                    <label for="rent2Bedroom">2 Bedroom</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rent_unit_type[]" id="rent3Bedroom" value="4">
+                                    <label for="rent3Bedroom">3 Bedroom</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rent_unit_type[]" id="rent4Bedroom" value="5">
+                                    <label for="rent4Bedroom">4 Bedroom</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rent_unit_type[]" id="rentLoft" value="6">
+                                    <label for="rentLoft">Loft</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rent_unit_type[]" id="rentHouseLot" value="7">
+                                    <label for="rentHouseLot">House & Lot</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="rent_unit_type[]" id="rentLot" value="8">
+                                    <label for="rentLot">Lot</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BUDGET -->
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="mo-field">
+                            <p class="h4-text">Budget</p>
+                            <p class="price-status hidden">
+                                PhP <span class="rent-minprice">4</span>
+                                ,000 to PhP <span class="rent-maxprice">50</span>
+                                ,000
+                            </p>
+                            <div class="input-wrap">
+                                <div class="pricerange">
+                                    <!-- SLIDER -->
+                                    <div class="pricerange__slider rentRangeSlider"></div>
+                                    <!-- LABELS -->
+                                    <div class="pricerange-labels pricerange-labels--fl">
+                                        <a href="#" class="pricerange-labels__link rentPriceLabel" data-pricerange="4">4,000</a>
+                                        <a href="#" class="pricerange-labels__link rentPriceLabel" data-pricerange="50">50,000</a>
+                                    </div>
+                                    <input type="number" name="minPrice" id="minPrice">
+                                    <input type="number" name="maxPrice" id="maxPrice">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- LOCATION -->
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="mo-field">
+                            <p class="h4-text">Near This Location</p>
+                            <div class="input-wrap js-location-map">
+                                <div class="custom-location">
+                                    <input type="text" name="location" id="locationRent" placeholder="Location" class="locationSearchInput">
+                                    <label for="locationRent">
+                                        <i class="icon-dmci icon-locationPin"></i>
+                                    </label>
+                                </div>
+                            </div>
+                            <input type="hidden" name="lat" class="locationLat">
+                            <input type="hidden" name="lng" class="locationLong">
+                        </div>
+                    </div>
+                </div>
+                <div class="mo-ctas">
+                    <button class="button--secondary clear-option black-green">Select All</button>
+                    <button type="submit" class="button--primary success js-submit-rent">Search </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="location-map-popup">
+    <a href="#" class="close close-options">
+        <i class="icon-dmci icon-close"></i>
+    </a>
+    <div class="input-wrap lmp-field">
+        <label for="locationMap">Enter your Preferred Nearby Location</label>
+        <div class="custom-location with-cta">
+            <input type="text" name="locationMap" id="locationMap" placeholder="Location" class="locationSearchInput">
+            <button class="js-lmp-clear clear">Clear</button>
+            <button class="button--primary success js-lmp-done">Done</button>
+        </div>
+    </div>
+    <div id="home-pin-map"></div>
+</div>
+<script>
+    const GOOGLE_API_KEY = "";
+</script>
+<style>
+    .embedded-messaging {
+        position: relative;
+        z-index: 999999;
+    }
+
+    .embeddedServiceSidebar {
+        z-index: 999999!important;
+    }
+
+    .embeddedServiceHelpButton .helpButton .uiButton {
+        background-color: #005290;
+        font-family: "Arial", sans-serif;
+    }
+
+    .embeddedServiceHelpButton .helpButton .uiButton:focus {
+        outline: 1px solid #005290;
+    }
+
+    @font-face {
+        font-family: 'Salesforce Sans';
+        src: url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'), url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype');
+    }
+</style>
+<script type='text/javascript'>
+    function initEmbeddedMessaging() {
+        try {
+            embeddedservice_bootstrap.settings.language = 'en_US';
+            // For example, enter 'en' or 'en-US'
+
+            embeddedservice_bootstrap.init('00D5g000000J3Js', 'DMCI_Homes_Official_Website', 'https://dmcihomes4.my.site.com/ESWDMCIHomesOfficialWe1739267746252', {
+                scrt2URL: 'https://dmcihomes4.my.salesforce-scrt.com'
+            });
+        } catch (err) {
+            console.error('Error loading Embedded Messaging: ', err);
+        }
+    }
+    ;</script>
+<script type='text/javascript' src='https://dmcihomes4.my.site.com/ESWDMCIHomesOfficialWe1739267746252/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script rel="preload" type="text/javascript" src="/assets/js/lib/jquery.min.js"></script>
+<script rel="preload" type="text/javascript" src="/assets/js/lib/modernizr-3.6.0.min.js"></script>
+<script rel="preload" type="text/javascript" src="/assets/js/owl.carousel.js"></script>
+<script rel="preload" type="text/javascript" src="/assets/js/lazysizes.min.js"></script>
+<script rel="preload" type="text/javascript" src="/assets/js/jquery.appear.js"></script>
+<script rel="preload" type="text/javascript" src="/assets/js/jquery.fancybox.js"></script>
+<script rel="preload" type="text/javascript" src="/assets/js/nouislider.js"></script>
+<script rel="preload" type="text/javascript" src="/assets/js/wNumb.min.js"></script>
+<script rel="preload" type="text/javascript" src="/assets/js/select-pure.min.js"></script>
+<script rel="preload" type="text/javascript" src="/assets/js/noframework.waypoints.min.js"></script>
+<script rel="preload" type="text/javascript" src="/assets/js/sticky-sidebar.js"></script>
+<script async="true" src="/assets/js/custom.js"></script>
+<script async="true" src="/assets/js/contact.js"></script>
+<script>
+    let requestController;
+    const SelectProvince = document.getElementById('officeRegion');
+    const SelectCity = document.getElementById('officeCity');
+    const InputBranch = document.getElementById('officeBranch');
+    const BranchFilterSubmit = document.getElementById('branch-filter-form');
+    const BranchListContainer = document.querySelector(".branch-results .details ul")
+    const BranchItems = document.getElementById('branch-items');
+    const NoResult = document.getElementById('no-results');
+    var branchList = JSON.parse(BranchItems.value);
+
+    BranchFilterSubmit.addEventListener('submit', function(e) {
+        e.preventDefault();
+        getProperties();
+    });
+
+    SelectProvince.addEventListener('change', function(e) {
+        SelectCity.querySelectorAll('.options').forEach(option => option.remove());
+
+        let provinceSelected = SelectProvince.options[SelectProvince.selectedIndex];
+        let cities = JSON.parse(provinceSelected.dataset.cities);
+
+        Object.entries(cities).forEach( ([key,value]) => {
+            let newOption = document.createElement("option");
+            newOption.value = key;
+            newOption.textContent = value;
+            newOption.classList.add('options')
+
+            SelectCity.appendChild(newOption)
+        }
+        );
+
+        getProperties();
+    });
+
+    SelectCity.addEventListener('change', function(e) {
+        getProperties()
+    });
+
+    function getProperties() {
+        BranchListContainer.querySelectorAll('.b-list').forEach(list => list.remove());
+        let provinceSelected = SelectProvince.options[SelectProvince.selectedIndex];
+        let citiesSelected = SelectCity.options[SelectCity.selectedIndex];
+        let searchInput = InputBranch;
+        let filterData = filterBranch(provinceSelected.value, citiesSelected.value || null, searchInput.value || null);
+
+        console.log(filterData)
+
+        if (filterData.length) {
+            NoResult.setAttribute('style', 'display:none')
+            filterData.forEach(function(branch) {
+                appendBranchList(branch.name, branch.address, branch.map_url, branch.longitude, )
+            })
+        } else {
+            NoResult.removeAttribute('style')
+        }
+
+        setTimeout(function() {
+            setMarker()
+        }, 1000);
+
+    }
+
+    function filterBranch(regionFilter, cityFilter, searchName) {
+        return branchList.name.map( (name, index) => {
+            const nameMatches = searchName === null || name.toLowerCase().includes(searchName.toLowerCase());
+            const regionMatches = regionFilter === null || branchList.region[index] == regionFilter;
+            const cityMatches = cityFilter === null || branchList.city[index] == cityFilter;
+            if (nameMatches && regionMatches && cityMatches) {
+                return {
+                    name: name,
+                    address: branchList.address[index],
+                    region: branchList.region[index],
+                    city: branchList.city[index],
+                    latitude: branchList.latitude[index],
+                    longitude: branchList.longitude[index],
+                    map_url: branchList.map_url[index],
+                };
+            }
+            return null;
+        }
+        ).filter( (item) => item !== null);
+    }
+
+    function appendBranchList(name='', address='', viewLink='', markerId='') {
+        const BranchListTemplate = document.getElementById('branchListTemplate');
+        const BranchListClone = document.importNode(BranchListTemplate.content, true);
+
+        BranchListClone.querySelector('li h4').textContent = name;
+        BranchListClone.querySelector('li p').textContent = address;
+        BranchListClone.querySelector('li a').href = viewLink
+        BranchListClone.querySelector('li').classList.add('b-list');
+        BranchListClone.querySelector('li').setAttribute('data-mapper', `${markerId}`)
+
+        BranchListContainer.appendChild(BranchListClone);
+    }
+
+    const event = new Event('change');
+    SelectProvince.dispatchEvent(event);
+
+    let map
+    const markers = new Map();
+
+    if ($('#branch-map').length > 0) {
+        callGoogleMapAPI();
+    }
+
+    function callGoogleMapAPI() {
+        var scriptElem = document.createElement("script");
+        scriptElem.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_API_KEY}&callback=initMap`;
+        scriptElem.id = "googlemaps";
+        scriptElem.setAttribute("async", "true");
+        scriptElem.setAttribute("defer", "true");
+        document.body.appendChild(scriptElem);
+    }
+
+    function initMap() {
+        const mapDiv = document.getElementById("branch-map");
+
+        if (!mapDiv) {
+            console.error("Map container element not found!");
+            return;
+        }
+        map = new google.maps.Map(mapDiv,{
+            center: {
+                lat: 14.5429668,
+                lng: 121.0105471
+            },
+            zoom: 11,
+            mapTypeControlOptions: {
+                style: window.google.maps.MapTypeControlStyle.VERTICAL_BAR,
+                position: window.google.maps.ControlPosition.BOTTOM_LEFT
+            },
+            zoomControl: true,
+            zoomControlOptions: {
+                position: window.google.maps.ControlPosition.LEFT_BOTTOM
+            },
+            streetViewControl: false,
+            mapTypeControl: false,
+            styles: [{
+                featureType: "administrative",
+                elementType: "geometry",
+                stylers: [{
+                    visibility: "off"
+                }]
+            }, {
+                featureType: "poi",
+                stylers: [{
+                    visibility: "off"
+                }]
+            }, {
+                featureType: "road",
+                elementType: "labels.icon",
+                stylers: [{
+                    visibility: "off"
+                }]
+            }, {
+                featureType: "transit",
+                stylers: [{
+                    visibility: "off"
+                }]
+            }, ],
+        });
+    }
+
+    function setMarker() {
+        clearMarker()
+        let provinceSelected = SelectProvince.options[SelectProvince.selectedIndex];
+        let citiesSelected = SelectCity.options[SelectCity.selectedIndex];
+        let searchInput = InputBranch;
+        let filterData = filterBranch(provinceSelected.value, citiesSelected.value || null, searchInput.value || null);
+
+        filterData.forEach(markerInfo => {
+            addMarker(markerInfo);
+        }
+        );
+
+    }
+
+    function addMarker(markerInfo) {
+        if (!map) {
+            console.error("Map not initialized!");
+            return;
+        }
+
+        const marker = new google.maps.Marker({
+            position: {
+                lat: parseFloat(markerInfo.latitude),
+                lng: parseFloat(markerInfo.longitude)
+            },
+            map: map,
+            title: markerInfo.content,
+            gmpClickable: true,
+        });
+
+        markers.set(markerInfo.longitude, marker);
+
+        var html = '<div class="property-infowindow">';
+        html += '<h4>' + markerInfo.name + '</h4>';
+        html += '<p>' + markerInfo.address + '</p>';
+        html += '</div>';
+
+        if (markerInfo.name) {
+            const infowindow = new google.maps.InfoWindow({
+                content: html,
+            });
+
+            let listItem = document.querySelector(`li[data-mapper="${markerInfo.longitude}"]`);
+            if (listItem) {
+                listItem.addEventListener('click', () => {
+                    hideAllMarkersInfo()
+                    if (listItem.classList.contains('open-info')) {
+                        listItem.classList.remove('open-info')
+                        infowindow.close();
+                    } else {
+                        listItem.classList.add('open-info')
+                        infowindow.open(map, marker);
+                    }
+                }
+                );
+            }
+
+            marker.addListener("click", () => {
+                hideAllMarkersInfo()
+                if (listItem.classList.contains('open-info')) {
+                    listItem.classList.remove('open-info')
+                    infowindow.close();
+                } else {
+                    listItem.classList.add('open-info')
+                    infowindow.open(map, marker);
+                }
+            }
+            );
+        }
+    }
+
+    function clearMarker() {
+        markers.forEach(marker => marker.setMap(null));
+        // Remove markers from the map
+        markers.clear();
+    }
+
+    function hideAllMarkersInfo() {
+        let listItemAll = document.querySelectorAll('.b-list');
+        listItemAll.forEach(li => {
+            if (li.classList.contains('open-info')) {
+                li.click()
+            }
+        }
+        );
+    }
+</script>
+<script>
+    function isMobile() {
+        return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
+
+    if (isMobile()) {
+        document.querySelector("#contactUs #message").addEventListener("keydown", function(e) {
+            if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                // Stop new line
+                document.querySelector("#contactUs #privacyPolicy").focus();
+                // Move to next field
+            }
+        });
+    }
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+<script type="text/javascript">
+    var onloadCallback = function() {
+        grecaptcha.render('gcaptcha', {
+            'sitekey': '6LedDqorAAAAAHT4d4ALZNPT30Im7l2h12GjKW1R',
+        });
+    };
+</script>
+</body></html>
