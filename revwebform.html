@@ -217,6 +217,62 @@
 				clear: both;
 			}
 
+			.modal-overlay {
+				display: none;
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.45);
+				backdrop-filter: blur(3px);
+				justify-content: center;
+				align-items: center;
+				z-index: 9999;
+			}
+
+			.modal-box {
+				background: #fff;
+				padding: 24px;
+				border-radius: 12px;
+				width: 320px;
+				text-align: center;
+				box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+				animation: fadeIn 0.25s ease;
+			}
+
+			.modal-box h2 {
+				margin-bottom: 10px;
+				font-size: 20px;
+			}
+
+			.modal-btn {
+				margin-top: 16px;
+				padding: 10px 18px;
+				border: none;
+				background: #007bff;
+				color: #fff;
+				border-radius: 8px;
+				cursor: pointer;
+			}
+
+			.modal-btn:hover {
+				background: #005fcc;
+			}
+
+			@keyframes fadeIn {
+				from {
+					transform: scale(.9);
+					opacity: 0;
+				}
+
+				to {
+					transform: scale(1);
+					opacity: 1;
+				}
+			}
+
+
 			@media all {
 
 				.zcwf_lblTopBottom .zcwf_col_lab,
@@ -229,115 +285,7 @@
 					width: 40%;
 				}
 			}
-
-
-
-			/* Alert Banner Styles */
-			.alert-banner {
-				display: none;
-				position: fixed;
-				top: 20px;
-				left: 50%;
-				transform: translateX(-50%);
-				min-width: 320px;
-				max-width: 500px;
-				padding: 16px 20px;
-				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-				color: white;
-				border-radius: 12px;
-				box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-				z-index: 10000;
-				animation: slideDown 0.4s ease-out;
-			}
-
-			.alert-banner.show {
-				display: flex;
-				align-items: center;
-				gap: 12px;
-			}
-
-			.alert-banner.success {
-				background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
-			}
-
-			@keyframes slideDown {
-				from {
-					opacity: 0;
-					transform: translateX(-50%) translateY(-20px);
-				}
-
-				to {
-					opacity: 1;
-					transform: translateX(-50%) translateY(0);
-				}
-			}
-
-			.alert-icon {
-				flex-shrink: 0;
-				width: 24px;
-				height: 24px;
-				background: rgba(255, 255, 255, 0.3);
-				border-radius: 50%;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				font-size: 16px;
-			}
-
-			.alert-content {
-				flex: 1;
-			}
-
-			.alert-title {
-				font-weight: 600;
-				font-size: 15px;
-				margin-bottom: 4px;
-			}
-
-			.alert-message {
-				font-size: 13px;
-				opacity: 0.95;
-			}
-
-			.alert-close {
-				flex-shrink: 0;
-				width: 24px;
-				height: 24px;
-				background: rgba(255, 255, 255, 0.2);
-				border: none;
-				border-radius: 50%;
-				color: white;
-				cursor: pointer;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				transition: background 0.2s;
-			}
-
-			.alert-close:hover {
-				background: rgba(255, 255, 255, 0.3);
-			}
-
-			.formsubmit.zcwf_button {
-				color: white !important;
-				background: transparent linear-gradient(0deg, #0279FF 0%, #00A3F3 100%);
-			}
 		</style>
-
-
-		<!-- Alert Banner -->
-		<div id="alertBanner" class="alert-banner">
-			<div class="alert-icon">✓</div>
-			<div class="alert-content">
-				<div class="alert-title">Form Submitted Successfully!</div>
-				<div class="alert-message">Thank you for your inquiry. We'll get back to you soon.</div>
-			</div>
-			<button class="alert-close" onclick="closeAlert()">&times;</button>
-		</div>
-
-
-
-
 		<div class='zcwf_title' style='max-width: 900px;color: black; font-family:Arial;'>Lead Webforms</div>
 		<div class='zcwf_row'>
 			<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
@@ -583,21 +531,16 @@
 
 
 
-			// Alert Banner Functions
-			function showAlert() {
-				const banner = document.getElementById('alertBanner');
-				banner.classList.add('show', 'success');
+			document.getElementById("formsubmit").addEventListener("click", function (e) {
+				e.preventDefault(); // prevent form submission if needed
+				document.getElementById("alertModal").style.display = "flex";
+			});
 
-				// Auto-hide after 5 seconds
-				setTimeout(() => {
-					closeAlert();
-				}, 5000);
-			}
+			document.getElementById("closeModal").addEventListener("click", function () {
+				document.getElementById("alertModal").style.display = "none";
+			});
 
-			function closeAlert() {
-				const banner = document.getElementById('alertBanner');
-				banner.classList.remove('show');
-			}
+
 
 
 		</script>
@@ -976,6 +919,14 @@
 					aria-label='Submit' title='Submit'>
 				<input type='reset' class='zcwf_button' role='button' name='reset' value='Reset' aria-label='Reset'
 					title='Reset'>
+			</div>
+			<!-- Modern Alert Modal -->
+			<div id="alertModal" class="modal-overlay">
+				<div class="modal-box">
+					<h2>Form Submitted</h2>
+					<p>Your form has been successfully submitted.</p>
+					<button id="closeModal" class="modal-btn">OK</button>
+				</div>
 			</div>
 		</div>
 		<script>
