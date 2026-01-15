@@ -15,3 +15,8 @@ repeatChangeColor({
 });
 
 return getTotalNumberOfCards();
+function repeatChangeColor(params) {
+  changeBackgroundColorComplex(params.times);
+}
+
+//Still not working..
