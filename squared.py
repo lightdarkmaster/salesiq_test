@@ -1,17 +1,15 @@
 """
 This module contains two functions that calculate the square of a given number.
 
-The first function, squared(n), uses a for loop to iterate from 1 to n and calculate the square of each number. It then prints out the square of each number and returns the final square value.
+The first function, squared(n), uses the formula for the sum of consecutive odd numbers to calculate the square of n.
 
-The second function, anotherway(n), uses a for loop to iterate from 0 to n and simply adds the value of n to the running total for each iteration. It then prints out the final square value.
+The second function, anotherway(n), simply multiplies n by itself to calculate the square.
 
 """
 
-n = 5
-
 def squared(n):
     """
-    This function uses a for loop to calculate the square of each number from 1 to n.
+    This function uses the formula for the sum of consecutive odd numbers to calculate the square of n.
 
     Parameters:
     n (int): The number to calculate the square of.
@@ -20,20 +18,12 @@ def squared(n):
     int: The final square value.
 
     """
-    square = 0
-    odd = 1
-
-    for i in range(1, n + 1):
-        square += odd
-        print(f"{i} squared = {square}")
-        odd += 2
-
-    return square
+    return n * (n + 1) // 2
 
 
 def anotherway(n):
     """
-    This function uses a for loop to calculate the square of a given number.
+    This function multiplies n by itself to calculate the square.
 
     Parameters:
     n (int): The number to calculate the square of.
@@ -42,11 +32,5 @@ def anotherway(n):
     None
 
     """
-    n = 5
-    square = 0
-
-    for _ in range(n):
-        square += n
-
-    print(f"{n} squared = {square}")
+    print(f"{n} squared = {n * n}")
 
