@@ -32,5 +32,6 @@ def anotherway(n):
     None
 
     """
-    print(f"{n} squared = {n * n}")
+    square = n * n
+    print(f"{n} squared = {square}")
 
