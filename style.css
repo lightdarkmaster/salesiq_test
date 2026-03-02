@@ -1,0 +1,49 @@
+/* ===========================
+   SALESIQ CHAT LAYOUT CUSTOM
+   =========================== */
+
+/* Visitor message (Customer) - LEFT */
+.zsiq-message.zsiq-user-msg,
+.zsiq-user-msg {
+    text-align: left !important;
+}
+
+.zsiq-message.zsiq-user-msg .zsiq-msg-content,
+.zsiq-user-msg .zsiq-msg-content {
+    background-color: #f1f1f1 !important;
+    color: #333 !important;
+    border-radius: 18px 18px 18px 5px !important;
+    float: left !important;
+}
+
+/* Operator message - RIGHT */
+.zsiq-message.zsiq-agent-msg,
+.zsiq-agent-msg {
+    text-align: right !important;
+}
+
+.zsiq-message.zsiq-agent-msg .zsiq-msg-content,
+.zsiq-agent-msg .zsiq-msg-content {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+    border-radius: 18px 18px 5px 18px !important;
+    float: right !important;
+}
+
+/* Clear float */
+.zsiq-message {
+    clear: both !important;
+    margin-bottom: 10px !important;
+}
+
+/* Chat window styling */
+.zsiq-chat-content {
+    font-family: 'Segoe UI', sans-serif !important;
+    font-size: 14px !important;
+}
+
+/* Timestamp styling */
+.zsiq-msg-time {
+    font-size: 11px !important;
+    opacity: 0.6 !important;
+}
